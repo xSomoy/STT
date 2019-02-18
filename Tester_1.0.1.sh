@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-searchit Defaul Test Search
+version=1.0.1
+searchit Default Test Search
 searchit -ddg DuckDuckGo Test Search
 searchit -duckduckgo DuckDuckGo Test Search 2
 searchit -ggl Google Test Search
@@ -17,7 +18,7 @@ searchit -startpage Startpage Test Search 2
 searchit -srx Searx Test Search
 searchit -searx Searx Test Search 2
 searchit -sdn Shodan Test Search
-searchit -shodan Shodan Test Search
+searchit -shodan Shodan Test Search 2
 duckit Duckit Shortcut Test Search
 googleit Googleit Shortcut Test Search
 
@@ -67,10 +68,11 @@ echo "Press Any Key To Continue"
 read key;
 
 echo " Searchit Uninstall Test 2 "
+echo "Press N To Continue"
 searchit -un
-echo "Press N To Continue"
+
 echo " Searchit Uninstall Test 2 "
-searchit --uninstaller
 echo "Press N To Continue"
-clear
+searchit --uninstall
+
 echo "Searchit Test Complete"
