@@ -28,6 +28,6 @@ This script will run all the commands available for [Searchit](https://github.co
     * Visually Confirm All Commands Are Working Properly
     * If You Found Any Problem. Create A  [Issue](https://github.com/xCommunicado/Searchit/issues "Searchit Issues") On [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repositor")'s Repository.
 
-For Any Other Necessary Feel Free To Contact Me Via [Twitter](www.twitter.com/xCommunicado "My Twitter Account").
+For Any Other Necessary Feel Free To Contact Me Via [Twitter](https://www.twitter.com/xCommunicado "My Twitter Account").
 
 ### Thank You !!
