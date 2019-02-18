@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-version=2.0.0
+version=2.1.0
 
 #   Test All The Seach Fucntionality
 
@@ -61,6 +61,84 @@ function searchTest() {
     searchit -shodan Shodan Test Search 2 &
         sleep 3s && xdotool key ctrl+w
 
+    searchit -fb Facebook Test Search  &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -facebook Facebook Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -ttr Twitter Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -twitter Twitter Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -rddt Reddit Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -reddit Reddit Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -lnkdn LinkedIn Test Search  &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -linkedin LinkedIn Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -ytb Youtube Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -youtube Youtube Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -ggl+ Google+ Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -googleplus Google+ Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -pntr Pinterest Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -pinterest Printerest Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -tmblr Tumblr Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -tumblr Tumblr Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -qra Quora Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -quora Quora Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -wiki Wikipedia Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -wikipedia Wikipedia Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -stkof Stack Overflow Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -stackoverflow Stack Overflow Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -amzn Amazon Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -amazon Amazon Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -eby Ebay Test Search &
+        sleep 3s && xdotool key ctrl+w
+
+    searchit -ebay Ebay Test Search 2 &
+        sleep 3s && xdotool key ctrl+w
+
     duckit Duckit Shortcut Test Search &
         sleep 3s && xdotool key ctrl+w
 
@@ -102,7 +180,7 @@ function funcTest() {
     searchit --update
     sleep 3s
 
-    echo " Searchit Version Test 1 "
+    echo " Searchit Version Test  "
     searchit -v
     sleep 3s
 
