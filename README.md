@@ -12,5 +12,5 @@ This script will run all the commands available for [Searchit](https://github.co
 
 * Make Sure;
     * You Already Installed [Searchit](https://github.com/xCommunicado/Searchit_Tester "Searchit Repository")
-    * You Already Installed [xdotool](https://github.com/jordansissel/xdotool"xodotool Repository").This Script Needs [xdotool](https://github.com/jordansissel/xdotool"xodotool Repository") to mimic keyboard input.
+    * You Already Installed [xdotool](https://github.com/jordansissel/xdotool "xodotool Repository").This Script Needs [xdotool](https://github.com/jordansissel/xdotool "xodotool Repository") to mimic keyboard input.
     * Your Tester Version Is Compatible With Your Searchit Version. Check [Releases](https://github.com/xCommunicado/Searchit_Tester/releases "Releases") For Verify Version Compatibility.
