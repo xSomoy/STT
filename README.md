@@ -1,1 +1,2 @@
-#Searchit_Tester
+I made a tool to do a stuff as easy as possible. and you expect me to test it manually? huh!! im too lazy for that. i have written a script to test "Searchit".
+This script will run all the commands available for Searchit tool and you have to visually confirm every commands are working properly. thats it. just make sure you already installed the searchit tool and xdotool. this script use xdotool for keyboard input.
