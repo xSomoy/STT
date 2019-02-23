@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-version=2.2.1
+version=2.3.1
 
 #   Test All The Seach Fucntionality
 
@@ -208,6 +208,14 @@ function funcTest() {
     echo " Searchit Uninstall Test 2 "
     searchit --uninstall &
     xdotool key Return
+    sleep 3s
+
+    echo " Searchit Release Note Test 1 "
+    searchit -rn
+    sleep 3s
+
+    echo " Searchit Release Test 2 "
+    searchit --release
     sleep 3s
 
 }

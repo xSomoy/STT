@@ -1,10 +1,10 @@
 # Searchit Tester
-Version: 2.2.1  
+Version: 2.3.1
 [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository") Compatible Version: 1.0-alpha04
 
 ---
 
-I made a tool to do a stuff as easy as possible. and you expect me to test it manually?
+I made a software to do a stuff as easy as possible. and you expect me to test it manually?
 > Huh!! I'm too lazy for that.
 
 I have written a script to test [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository").
