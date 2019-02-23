@@ -1,6 +1,6 @@
 # Searchit Tester
 Version: 2.3.1
-[Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository") Compatible Version: 1.0-alpha04
+[Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository") Compatible Version: 1.0-rc.1
 
 ---
 
