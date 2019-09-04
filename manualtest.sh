@@ -295,3 +295,17 @@ searchit -ttr -brd Twitter Broadcast Search Test
 searchit -ttr -broadcast Twitter Broadcast Search Test II
 clear
 echo "Twitter Search Test Done"
+
+# Reddit 
+
+echo "Start Reddit Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Reddit Search Test"
+searchit -rddt Reddit Default Search Test
+searchit -reddit Reddit Default Search Test II
+searchit -rddt -pst Reddit Default Search Test
+searchit -rddt -post Reddit Default Search Test II
+searchit -rddt -usr Reddit Communities And Users Search Test
+searchit -rddt -user Reddit Communities And Users Search Test II
+clear
+echo "Reddit Search Test Done"
