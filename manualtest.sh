@@ -310,7 +310,7 @@ searchit -rddt -user Reddit Communities And Users Search Test II
 clear
 echo "Reddit Search Test Done"
 
- Linkedin
+#Linkedin
 
 echo "Start Linkedin Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -334,4 +334,61 @@ searchit -linkedin -firstname Linkedin First Name Search Test II
 searchit -linkedin -lnm Linkedin Last Name Search Test
 searchit -linkedin -lastname Linkedin Last Name Search Test II
 ckear
-echo "Linkedin Search Test Done"
+echo "Linkedin Search Test Done"]
+
+# Youtube
+
+echo "Start Youtube Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Youtube Search Test"
+seaechit -ytb Youtube Default Search Test
+searchit -youtube Youtube Default Search Test II
+searchit -ytb -vid Youtube Videos Search Test 
+searchit -ytb -video Youtube Videos Search Test II
+searchit -ytb -cnl Youtube Chanel Search Test
+searchit -ytb -channel Youtube Channel Search Test II
+searchit -ytb -plt Youtube Channel Search Test
+searchit -ytb -playlist Youtube Channel Search Test II
+searchit -ytb -mve Youtube Movie Search Test 
+searchit -ytb -movie Youtube Movie Search Test II
+searchit -ytb -shw Youtube Show Search Test
+searchit -ytb -show Youtube Show Search Test II
+searchit -ytb -srt Youtube Short Video Search Test
+searchit -ytb -short Youtube Short Video Search Test II
+searchit -ytb -lng Youtube Long Video Search Test
+searchit -ytb -long Youtube Long Video Search Test II
+searchit -ytb -hur Youtube Last Hour Search Test
+searchit -ytb -hour Youtube Last Hour Search Test II
+searchit -ytb -tdy Youtube Today Search Test
+searchit -ytb -today Youtube Today Search Test II
+searchit -ytb -wek Youtube Today Search Test 
+searchit -ytb -week Youtube Today Search Test II
+searchit -ytb -mth Youtube Month Search Test 
+searchit -ytb -month Youtube Month Search Test II
+searchit -ytb -yar Youtube Year Search Test 
+searchit -ytb -year Youtube Year Search Test II
+searchit -ytb -lve Youtube Live Search Test
+searchit -ytb -live Youtube Live Search Test II
+searchit -ytb -4k Youtube 4k Search Test
+searchit -ytb -hd Youtube HD Search Test
+searchit -ytb -cc Youtube Caption Search Test
+searchit -ytb -caption Youtube Caption Search Test II
+searchit -ytb -cmn Youtube Creative Common Search Test
+searchit -ytb -common Youtube Creative Common Search Test II
+searchit -ytb -360 Youtube 360 Search Test
+searchit -ytb -180 Youtube VR180 Search Test
+searchit -ytb -vr180 Youtube VR180 Search Test II
+searchit -ytb -3d Youtube 3D Search Test
+searchit -ytb -hdr Youtube HDR Search Test
+searchit -ytb -lcn Youtube Location Search Test
+searchit -ytb -location Youtube Location Search Test II
+searchit -ytb -prc Youtube Purchase Search Test
+searchit -ytb -purchase Youtube Purchase Search Test II
+searchit -ytb -dte Youtube Short By Date Search Test
+searchit -ytb -date Youtube Short By Date Search Test II
+searchit -ytb -vws Youtube Short By Views Search Test
+searchit -ytb -views Youtube Short By Views Search Test II
+searchit -ytb -rte Youtube Short By Rate Search Test
+searchit -ytb -rate Youtube Short By Rate Search Test II
+clear
+echo "YouTube Search Test Done"
