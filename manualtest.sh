@@ -309,3 +309,29 @@ searchit -rddt -usr Reddit Communities And Users Search Test
 searchit -rddt -user Reddit Communities And Users Search Test II
 clear
 echo "Reddit Search Test Done"
+
+ Linkedin
+
+echo "Start Linkedin Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Linkedin Search Test"
+searchit -lkndn Linkedin Default Search Test
+searchit -linkedin Linkedin Default Search Test II
+searchit -linkedin -ppl Linkedin People Search Test
+searchit -linkedin -people Linkedin People Search Test II
+searchit -linkedin -job Linkedin Jobs Search Test
+searchit -linkedin -jobs Linkedin Jobs Search Test II
+searchit -linkedin -cnt Linkedin Content Search Test
+searchit -linkedin -content Linkedin Content Search Test II
+searchit -linkedin -cpy Linkedin Company Search Test
+searchit -linkedin -company Linkedin Company Search Test II
+searchit -linkedin -scl Linkedin School Search Test
+searchit -linkedin -school Linkedin School Search Test II
+searchit -linkedin -grp Linkedin Group Search Test 
+searchit -linkedin -group Linkedin Group Search Test II
+searchit -linkedin -fnm Linkedin First Name Search Test
+searchit -linkedin -firstname Linkedin First Name Search Test II
+searchit -linkedin -lnm Linkedin Last Name Search Test
+searchit -linkedin -lastname Linkedin Last Name Search Test II
+ckear
+echo "Linkedin Search Test Done"
