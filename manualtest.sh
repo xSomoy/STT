@@ -250,7 +250,7 @@ echo "Qwant Jr. Search Test Done"
 
 echo "Start Facebook Search Test? ('Ctrl+C' to cancel)"
 read x
-echo "Qwant Jr. Search Test"
+echo "Facebook Search Test"
 searchit -fb Facebook Default Search Test
 searchit -facebook Facebook Default Search Test II
 searchit -fb -pst Facebook Post Search Test
@@ -273,3 +273,25 @@ searchit -fb -lnk Facebook Links Search Test
 searchit -fb -link Facebook Links Search Test II
 clear
 echo "Facebook Search Test Done"
+
+# twitter
+
+echo "Start Twitter Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Twitter Search Test"
+searchit -ttr Twitter Default Search Test
+searchit -twitter Twitter Default Search Test II
+searchit -ttr -lst Twitter Latest Search Test
+searchit -ttr -latest Twitter Latest Search Test II
+searchit -ttr -ppl  Twitter People Search Test
+searchit -ttr -people Twitter People Search Test II
+searchit -ttr -img Twitter Image Search Test
+searchit -ttr -image Twitter Image Search Test II
+searchit -ttr -vid Twitter Video Search Test
+searchit -ttr -video Twitter Video Search Test II
+searchit -ttr -nws Twitter News Search Test 
+searchit -ttr -news Twitter News Search Test II
+searchit -ttr -brd Twitter Broadcast Search Test
+searchit -ttr -broadcast Twitter Broadcast Search Test II
+clear
+echo "Twitter Search Test Done"
