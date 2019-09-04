@@ -67,3 +67,21 @@ searchit -yah -nws Yahoo News Search
 searchit -yah -news Yahoo News Search II
 clear
 echo "Yahoo Search Test Done"
+
+#Bing
+
+echo "Start Bing Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Bing Search Test"
+searchit -bng Default Bing Search
+searchit -bing Defaul Bing Search II
+searchit -bng -img Bing Image Search
+searchit -bng -image Bing Image Search II
+searchit -bng -vid Bing Video Search
+searchit -bng -video Bing Video Search II
+searchit -bng -nws Bing News Search
+searchit -bng -news Bing News Search II
+searchit -bng -nws Bing Map Search
+searchit -bng -news Bing Map Search II
+clear
+echo "Bing Search Test Done"
