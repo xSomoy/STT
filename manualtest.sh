@@ -51,3 +51,19 @@ searchit -ggl -map Google Map Search
 searchit -ggl -maps Google Map Search II
 clear
 echo "Google Search Test Done"
+
+# Yahoo
+
+echo "Start Yahoo Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Yahoo Search Test"
+searchit -yah Default Yahoo Search
+searchit -yahoo Defaul Yahoo Search II
+searchit -yah -img Yahoo Image Search
+searchit -yah -image Yahoo Image Search II
+searchit -yah -vid Yahoo Video Search
+searchit -yah -video Yahoo Video Search II
+searchit -yah -nws Yahoo News Search
+searchit -yah -news Yahoo News Search II
+clear
+echo "Yahoo Search Test Done"
