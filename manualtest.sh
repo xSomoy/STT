@@ -192,8 +192,8 @@ searchit -qwnt -img Qwant Image Search
 searchit -qwnt -image Qwant Image Search II
 searchit -qwnt -vid Qwant Video Search
 searchit -qwnt -video Qwant Video Search II
-searchit -qwnt -nws Qwant Qwant Search
-searchit -qwnt -news Qwant Qwant Search II
+searchit -qwnt -nws Qwant News Search
+searchit -qwnt -news Qwant News Search II
 searchit -qwnt -map Qwant Map Search
 searchit -qwnt -maps Qwant Map Search II
 searchit -qwnt -msc Qwant Music Search
@@ -217,4 +217,25 @@ searchit -qwnt -asssocian Qwant Asssocian Search II
 clear
 echo "Qwant Search Test Done"
 
+#qwantjunior
+
+echo "Start Qwant Jr. Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Qwant Jr. Search Test"
+searchit -qwntjr Default Qwant Jr. Search
+searchit -qwantjunior Default Qwant Jr. Search II
+searchit -qwntjr -img Qwant Jr. Image Search
+searchit -qwntjr -image Qwant Jr. Image Search II
+searchit -qwntjr -vid Qwant Jr. Video Search
+searchit -qwntjr -video Qwant Jr. Video Search II
+searchit -qwntjr -nws Qwant Jr. News Search
+searchit -qwntjr -news Qwant Jr. News Search II
+searchit -qwntjr -edu Qwant Jr. Education Search
+searchit -qwntjr -education Qwant Jr. Education Search II
+searchit -qwntjr -nte Qwant Jr. Notes Search
+searchit -qwntjr -note Qwant Jr. Notes Search II
+searchit -qwntjr -brd Qwant Jr. Boards Search
+searchit -qwntjr -board Qwant Jr. Boards Search II
+clear
+echo "Qwant Jr. Search Test Done"
 
