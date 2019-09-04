@@ -146,7 +146,7 @@ echo "StarPage Search Test Done"
 
 echo "Start SearX Search Test? ('Ctrl+C' to cancel)"
 read x
-echo "Baidu SearX Test"
+echo "SearX Search Test"
 searchit -srx Default SearX Search
 searchit -searx Default SearX Search II
 searchit -srx -img SearX Image Search
@@ -173,11 +173,48 @@ echo "SearX Search Test Done"
 
 echo "Start Shodan Search Test? ('Ctrl+C' to cancel)"
 read x
-echo "Baidu Shodan Test"
+echo "Shodan Search Test"
 searchit -sdn Default Shodan Search
 searchit -shodan Default Shodan Search II
 searchit -sdn -exp Shodan Exploits Search
 searchit -shodan -exploit Shodan Exploits Search II
 clear
 echo "Shodan Search Test Done"
+
+#qwant
+
+echo "Start Qwant Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Qwant Search Test"
+searchit -qwnt Default Qwant Search
+searchit -qwant Default Qwant Search II
+searchit -qwnt -img Qwant Image Search
+searchit -qwnt -image Qwant Image Search II
+searchit -qwnt -vid Qwant Video Search
+searchit -qwnt -video Qwant Video Search II
+searchit -qwnt -nws Qwant Qwant Search
+searchit -qwnt -news Qwant Qwant Search II
+searchit -qwnt -map Qwant Map Search
+searchit -qwnt -maps Qwant Map Search II
+searchit -qwnt -msc Qwant Music Search
+searchit -qwnt -music Qwant Music Search II
+searchit -qwnt -spg Qwant Shopping Search
+searchit -qwnt -shopping Qwant Shopping Search II
+searchit -qwnt -abm Qwant Album Search
+searchit -qwnt -album Qwant Album Search II
+searchit -qwnt -art Qwant Artist Search
+searchit -qwnt -artist Qwant Artist Search II
+searchit -qwnt -sng Qwant Songs Search
+searchit -qwnt -song Qwant Songs Search II
+searchit -qwnt -scl Qwant Social Media Search
+searchit -qwnt -social Qwant Social Media Search II
+searchit -qwnt -cas Qwant Causes Search
+searchit -qwnt -cause Qwant Causes Search II
+searchit -qwnt -cvw Qwant Causes Overview Search
+searchit -qwnt -causesoverview Qwant Causes Overview Search II
+searchit -qwnt -asn Qwant Asssocian Search
+searchit -qwnt -asssocian Qwant Asssocian Search II
+clear
+echo "Qwant Search Test Done"
+
 
