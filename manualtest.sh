@@ -164,7 +164,20 @@ searchit -srx -files SearX Files Search II
 searchit -srx -it SearX It Search
 searchit -srx -sci SearX Science Search
 searchit -srx -science SearX Science Search II
-searchit -srx -scl SearX Music Search
-searchit -srx -social SearX Music Search II
+searchit -srx -scl SearX Social Media Search
+searchit -srx -social SearX Social Media Search II
 clear
 echo "SearX Search Test Done"
+
+# shodan
+
+echo "Start Shodan Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Baidu Shodan Test"
+searchit -sdn Default Shodan Search
+searchit -shodan Default Shodan Search II
+searchit -sdn -exp Shodan Exploits Search
+searchit -shodan -exploit Shodan Exploits Search II
+clear
+echo "Shodan Search Test Done"
+
