@@ -141,3 +141,30 @@ searchit -spg -vid StartPage Video Search
 searchit -spg -video StartPage Video Search II
 clear
 echo "StarPage Search Test Done"
+
+#SearX
+
+echo "Start SearX Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Baidu SearX Test"
+searchit -srx Default SearX Search
+searchit -searx Default SearX Search II
+searchit -srx -img SearX Image Search
+searchit -srx -image SearX Image Search II
+searchit -srx -vid SearX Video Search
+searchit -srx -video SearX Video Search II
+searchit -srx -nws SearX News Search
+searchit -srx -news SearX News Search II
+searchit -srx -map SearX Map Search
+searchit -srx -maps SearX Map Search II
+searchit -srx -msc SearX Music Search
+searchit -srx -music SearX Music Search II
+searchit -srx -fls SearX Files Search
+searchit -srx -files SearX Files Search II
+searchit -srx -it SearX It Search
+searchit -srx -sci SearX Science Search
+searchit -srx -science SearX Science Search II
+searchit -srx -scl SearX Music Search
+searchit -srx -social SearX Music Search II
+clear
+echo "SearX Search Test Done"
