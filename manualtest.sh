@@ -2,9 +2,13 @@
 
 # Default Search Test
 
+echo " Default Search Test"
 searchit Default Search
 
+
 #  Search Engine Test
+
+echo "Default Search Engines Test"
 
 #Duckduckgo 
 
@@ -239,3 +243,33 @@ searchit -qwntjr -board Qwant Jr. Boards Search II
 clear
 echo "Qwant Jr. Search Test Done"
 
+
+# Search Sites Test
+
+# facebook
+
+echo "Start Facebook Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Qwant Jr. Search Test"
+searchit -fb Facebook Default Search Test
+searchit -facebook Facebook Default Search Test II
+searchit -fb -pst Facebook Post Search Test
+searchit -fb -post Facebook Post Search Test II
+searchit -fb -img Facebook Image Search Test
+searchit -fb -image Facebook Image Search Test II
+searchit -fb -vid Facebook Video Search Test
+searchit -fb -video Facebook Video Search Test II
+searchit -fb -pge Facebook Page Search Test
+searchit -fb -page Facebook Page Search Test II
+searchit -fb -plc Facebook Place Search Test
+searchit -fb -place Facebook Place Search Test II
+searchit -fb -grp Facebook Groups Search Test
+searchit -fb -group Facebook Groups Search Test II
+searchit -fb -app Facebook Apps Search Test
+searchit -fb -apps Facebook Apps Search Test II
+searchit -fb -evt Facebook Events Search Test
+searchit -fb -event Facebook Events Search Test II
+searchit -fb -lnk Facebook Links Search Test
+searchit -fb -link Facebook Links Search Test II
+clear
+echo "Facebook Search Test Done"
