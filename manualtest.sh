@@ -127,3 +127,17 @@ searchit -bdu -knw Baidu Know Search
 searchit -bdu -know Baidu Know Search II
 clear
 echo "Baidu Search Test Done"
+
+#StartPage
+
+echo "Start StarPage Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "StartPage Search Test"
+searchit -spg Default StartPage Search
+searchit -startpage Default StartPage Search II
+searchit -spg -img StartPage Image Search
+searchit -spg -image StartPage Image Search II
+searchit -spg -vid StartPage Video Search
+searchit -spg -video StartPage Video Search II
+clear
+echo "StarPage Search Test Done"
