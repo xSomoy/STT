@@ -36,7 +36,7 @@ echo "Start Google Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Google Search Test"
 searchit -ggl Default Google Search
-searchit -google Defaul Google Search II
+searchit -google Default Google Search II
 searchit -ggl -img Google Image Search
 searchit -ggl -image Google Image Search II
 searchit -ggl -vid Google Video Search
@@ -58,7 +58,7 @@ echo "Start Yahoo Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Yahoo Search Test"
 searchit -yah Default Yahoo Search
-searchit -yahoo Defaul Yahoo Search II
+searchit -yahoo Default Yahoo Search II
 searchit -yah -img Yahoo Image Search
 searchit -yah -image Yahoo Image Search II
 searchit -yah -vid Yahoo Video Search
@@ -74,7 +74,7 @@ echo "Start Bing Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Bing Search Test"
 searchit -bng Default Bing Search
-searchit -bing Defaul Bing Search II
+searchit -bing Default Bing Search II
 searchit -bng -img Bing Image Search
 searchit -bng -image Bing Image Search II
 searchit -bng -vid Bing Video Search
@@ -85,3 +85,45 @@ searchit -bng -nws Bing Map Search
 searchit -bng -news Bing Map Search II
 clear
 echo "Bing Search Test Done"
+
+#Yandex
+
+echo "Start Yandex Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Yandex Search Test"
+searchit -ydx Default Yandex Search
+searchit -yandex Default Yandex Search II
+searchit -ydx -img Yandex Image Search
+searchit -ydx -image Yandex Image Search II
+searchit -ydx -vid Yandex Video Search
+searchit -ydx -video Yandex Video Search II
+searchit -ydx -nws Yandex News Search
+searchit -ydx -news Yandex News Search II
+searchit -ydx -nws Yandex Map Search
+searchit -ydx -news Yandex Map Search II
+clear
+echo "Yandex Search Test Done"
+
+#Baidu
+
+echo "Start Baidu Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Baidu Search Test"
+searchit -bdu Default Baidu Search
+searchit -baidu Default Baidu Search II
+searchit -bdu -img Baidu Image Search
+searchit -bdu -image Baidu Image Search II
+searchit -bdu -vid Baidu Video Search
+searchit -bdu -video Baidu Video Search II
+searchit -bdu -nws Baidu News Search
+searchit -bdu -news Baidu News Search II
+searchit -bdu -map Baidu Map Search
+searchit -bdu -maps Baidu Map Search II
+searchit -bdu -msc Baidu Music Search
+searchit -bdu -music Baidu Music Search II
+searchit -bdu -aca Baidu Academic Search
+searchit -bdu -academic Baidu Academic Search II
+searchit -bdu -knw Baidu Know Search
+searchit -bdu -know Baidu Know Search II
+clear
+echo "Baidu Search Test Done"
