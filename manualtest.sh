@@ -503,7 +503,7 @@ searchit -gthb -issue Github Issue Search Test II
 searchit -gthb -cde Github Code Search Test
 searchit -gthb -code Github Code Search Test II
 searchit -gthb -cmt Github Commits Search Test
-searchit -gthb -comit Github Commits Search Test II
+searchit -gthb -commit Github Commits Search Test II
 searchit -gthb -usr Github User Search Test
 searchit -gthb -user Github User Search Test II
 searchit -gthb -rep Github Repository Search Test
@@ -518,3 +518,42 @@ searchit -gthb -wki Github Wiki Search Test
 searchit -gthb -wiki Github Wiki Search Test II
 clear
 echo "Github Search Test Done"
+
+# Amazon
+
+echo "Start Amazon Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Amazon Search Test"
+searchit -amzn Amazon Default Search Test
+serachit -amazon Amazon Default Search Test II
+searchit -amzn -art Amazon Arts And Crafts Search Test
+searchit -amzn -craft Amazon Arts And Crafts Search Test II
+searchit -amzn -auto Amazon Automotive Search Test
+searchit -amzn -automotive Amazon Automotive Search Test II
+searchit -amzn -bby Amazon Baby Search Test
+searchit -amzn -baby Amazon Baby Search Test II
+searchit -amzn -bty Amazon Beauty And Personal Care Search Test
+searchit -amzn -beauty Amazon Beauty And Personal Care Search Test  II
+searchit -amzn -personal Amazon Beauty And Personal Care Search Test III
+searchit -amzn -bks Amazon Book Search Test
+searchit -amzn -book Amazon Book Search Test II
+searchit -amzn -com Amazon Computers Search Test
+searchit -amzn -computer Amazon Computers Search Test II
+searchit -amzn -dmc Amazon Digital Music Search Test
+searchit -amzn -digitalmuric Amazon Digital Music Search Test II
+searchit -amzn -elc Amazon Electronics Search Test
+searchit -amzn -electronics Amazon Electronics Search Test II
+searchit -amzn -kdl Amazon Kindle Store Search Test
+searchit -amzn -kindle Amazon Kindle Store Search Test II
+searchit -amzn -pvd Amazon Prime Video Search Test
+searchit -amzn -primevideo Amazon Prime Video Search Test II
+searchit -amzn -wmn Amazon Womens Fasion Search Test
+searchit -amzn -women Amazon Womens Fasion Search Test II
+searchit -amzn -men Amazon Men Fasion Search Test
+searchit -amzn -man Amazon Men Fasion Search Test II
+searchit -amzn -glr Amazon Girls Fasion Search Test
+searchit -amzn -girl Amazon Girls Fasion Search Test II
+searchit -amzn -boy Amazon Boys Fasion Search Test
+searchit -amzn -boys Amazon Boys Fasion Search Test II
+searchit -amzn -dls Amazon Deals Search Test
+searchit -amzn -deal Amazon Deals Search Test II
