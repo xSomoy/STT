@@ -490,3 +490,31 @@ searchit -gtlb -usr Gitlab User Search Test
 searchit -gtlb -user Gitlab User Search Test II
 clear
 echo "Gitlab Search Test Done"
+
+# Github
+
+echo "Start Github Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Github Search Test"
+searchit -gthb Github Default Search Test
+searchit -github Github Default Search Test II
+searchit -gthb -isu Github Issue Search Test
+searchit -gthb -issue Github Issue Search Test II
+searchit -gthb -cde Github Code Search Test
+searchit -gthb -code Github Code Search Test II
+searchit -gthb -cmt Github Commits Search Test
+searchit -gthb -comit Github Commits Search Test II
+searchit -gthb -usr Github User Search Test
+searchit -gthb -user Github User Search Test II
+searchit -gthb -rep Github Repository Search Test
+searchit -gthb -repository Github Repository Search Test II
+searchit -gthb -pac Github Package Search Test
+searchit -gthb -package Github Package Search Test II
+searchit -gthb -mkt Github Marketplace Search Test
+searchit -gthb -market Github Marketplace Search Test II
+searchit -gthb -tpc Github Topic Search Test
+searchit -gthb -topic Github Topic Search Test II
+searchit -gthb -wki Github Wiki Search Test
+searchit -gthb -wiki Github Wiki Search Test II
+clear
+echo "Github Search Test Done"
