@@ -454,3 +454,21 @@ searchit -wiki Wikipedia Default Search Test
 searchit -wikipedia Wikipedia Default Search Test II
 clear
 echo "wikipedia Search Test Done"
+
+# StackOverFlow
+
+echo "Start StackOverFlow Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "StackOverFlow Search Test"
+searchit -stkof StackOverFlow Default Search Test
+searchit -stackoverflow Default Search Test II
+searchit -stkof -new StackOverFlow Newst Search Test
+searchit -stkof -newest StackOverFlow Newest Search Test II
+searchit -stkof -act StackOverFlow Active Search Test
+searchit -stkof -active StackOverFlow Active Search Test II
+searchit -stkof -vot StackOverFlow Vote Search Test
+searchit -stkof -votes StackOverFlow Vote Search Test II
+searchit -stkof -job StackOverFlow Job Search Test
+searchit -stkof -jobs StackOverFlow Job Search Test II
+clear
+echo "StackOverFlow Search Test Done"
