@@ -472,3 +472,21 @@ searchit -stkof -job StackOverFlow Job Search Test
 searchit -stkof -jobs StackOverFlow Job Search Test II
 clear
 echo "StackOverFlow Search Test Done"
+
+# Gitlab
+
+echo "Start Gitlab Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Gitlab Search Test"
+searchit -gtlb Gitlab Default Search Test
+searchit -gitlab Gitlab Default Search Test II
+searchit -gtlb -isu Gitlab Issue Search Test
+searchit -gtlb -issue Gitlab Issue Search Test II
+searchit -gtlb -mrg Gitlab Merge Search Test
+searchit -gtlb -merge Gitlab Merge Search Test II
+searchit -gtlb -stn Gitlab Milestone Search Test
+searchit -gtlb -milestone Gitlab Milestone Search Test II
+searchit -gtlb -usr Gitlab User Search Test
+searchit -gtlb -user Gitlab User Search Test II
+clear
+echo "Gitlab Search Test Done"
