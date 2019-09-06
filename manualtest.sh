@@ -395,7 +395,7 @@ echo "YouTube Search Test Done"
 
 #pinterest
 
-echo "Start Pinteest Search Test? ('Ctrl+C' to cancel)"
+echo "Start Pinterest Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Pinterest Search Test"
 searchit -pntr Pinterest Default Search Test
@@ -410,3 +410,13 @@ searchit -pntr -brd Pinterst Boards Search Test
 searchit -pntr -board Pinterest Board Search Test II
 clear
 echo "Pinterest Search Test Done"
+
+# Tumblr
+
+echo "Start Tumblr Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "tumblr Search Test"
+searchit -tumblr Tumblr Default Search Test
+searchit -tumblr Tumbler Default Search Test II
+clear
+echo "Tumbler Search Test Done"
