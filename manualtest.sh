@@ -392,3 +392,21 @@ searchit -ytb -rte Youtube Short By Rate Search Test
 searchit -ytb -rate Youtube Short By Rate Search Test II
 clear
 echo "YouTube Search Test Done"
+
+#pinterest
+
+echo "Start Pinteest Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Pinterest Search Test"
+searchit -pntr Pinterest Default Search Test
+searchit -pinterest Pinterest Default Search Test II
+searchit -pntr -my Pinterest Mypin Search Test
+searchit -pntr -mypin Pinterest Mypin Search Test II
+searchit -pntr -pdt Pinterest Product Search Test 
+searchit -pntr -product Pinterest Product Search Test II
+searchit -pntr -ppl Pinterest Peoeple Search Test
+searchit -pntr -people Pinterest People Search Test II
+searchit -pntr -brd Pinterst Boards Search Test
+searchit -pntr -board Pinterest Board Search Test II
+clear
+echo "Pinterest Search Test Done"
