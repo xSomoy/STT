@@ -420,3 +420,27 @@ searchit -tumblr Tumblr Default Search Test
 searchit -tumblr Tumbler Default Search Test II
 clear
 echo "Tumbler Search Test Done"
+
+#Quora
+
+echo "Start Quora Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Quora Search Test"
+searchit -qra Quora Default Search Test
+searchit -quora Quora Default Search Test II
+searchit -qra -qsn Quora Question Search Test 
+searchit -qra -question Quora Question Search Test II
+searchit -qra -ans Quora Answer Search Test
+searchit -qra -answear Quora Answer Search Test II
+searchit -qra -pst Quora Post Search Test
+searchit -qra -post Quora Post Search Test II
+searchit -qra -pfl Quora Profile Search Test
+searchit -qra -profile Quora Profie Search Test II
+searchit -qra -tpc Quora Topic Search Test
+searchit -qra -topic Quora Topic Search Test II
+searchit -qra -blg Quora Blog Search Test
+searchit -qra -blog Quora Blog Search Test II
+searchit -qra -spc Quora Spaces Search Test
+searchit -qra -space Quora Spaces Search Test II
+clear
+echo "Quora Search Test Done"
