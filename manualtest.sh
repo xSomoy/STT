@@ -415,8 +415,8 @@ echo "Pinterest Search Test Done"
 
 echo "Start Tumblr Search Test? ('Ctrl+C' to cancel)"
 read x
-echo "tumblr Search Test"
-searchit -tumblr Tumblr Default Search Test
+echo "Tumblr Search Test"
+searchit -tmblr Tumblr Default Search Test
 searchit -tumblr Tumbler Default Search Test II
 clear
 echo "Tumbler Search Test Done"
@@ -444,3 +444,13 @@ searchit -qra -spc Quora Spaces Search Test
 searchit -qra -space Quora Spaces Search Test II
 clear
 echo "Quora Search Test Done"
+
+# wikipedia
+
+echo "Start Wikipedia Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Wikipedia Search Test"
+searchit -wiki Wikipedia Default Search Test
+searchit -wikipedia Wikipedia Default Search Test II
+clear
+echo "wikipedia Search Test Done"
