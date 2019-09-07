@@ -557,3 +557,34 @@ searchit -amzn -boy Amazon Boys Fasion Search Test
 searchit -amzn -boys Amazon Boys Fasion Search Test II
 searchit -amzn -dls Amazon Deals Search Test
 searchit -amzn -deal Amazon Deals Search Test II
+sseachit -amzn -hlt Amazon Health And Houshols Search Test
+searchit -amzn -health Amazon Health Search Test II
+searchit -amzn -houshold Amazon Health And Houshold Search Test III
+searchit -amzn -hme Amazon Home And Kitchen Seach Test 
+searchit -amzn -home Amazon Home And Kitchen Search Test II
+searchit -amzn -kitchen Amazon Home And Kitchen Searc Test III
+searchit -amzn -ids Amazon Industrial And Scientific Search Test
+searchit -amzn -industrial Amazon Industrial And Scientific Search Test II
+searchit -amzn -sci Amazon Industrial And Scientific Search Test III
+searchit -amzn -science Amazon Industrial And Scientific Search Test IV
+searchit -amzn -lge Amazon Luggage Search Test 
+searchit -amzn -luggage Amazon Luggage Search Test II
+searchit -amzn -mvi Amazon Movie And Tv Search Test
+searchit -amzn -movie Amazon Movie And Tv Search Test II
+searchit -amzn -tv Amazon Movie And Tv Search Test III
+searchit -amzn -msc Amazon Music Search Test 
+searchit -amzn -music Amazon Music Search Test II
+searchit -amzn -pet Amazon Pet Search Test
+searchit -amzn -petsupply Amazon Pet Search Test II
+searchit -amzn -sft Amzon Software Search Test
+searchit -amzn -softwae Amazon software Search Test II
+searchit -amzn -spt Amazon Sport Search Test
+searchit -amzn -sport Amazon Sport Search Test II
+searchit -amzn -tls Amazon Tools And House Improvment Search Test
+searchit -amzn -tool Amazon Tool And House Improvment Search Test II
+searchit -amzn -toy Amazon Toy Search Test 
+searchit -amzn -toys Amazon Toy Searc Test II
+searchit -amzn -gme Amazon  Games Search Test
+searchit -amzn -game Amazon Game Search Test II
+clear
+echo "Amazon Search Test Done"
