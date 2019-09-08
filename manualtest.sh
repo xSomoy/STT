@@ -644,4 +644,40 @@ searchit -eby -cpn Ebay Gifts And Coupns Search Test
 searchit -eby -coupon Ebay Gifts And Coupons Search Test II
 searchit -eby -bty Ebay Health And Beauty Search Test
 searchit -eby -beauty Ebay Health And Beauty Search Test II
-searchit -eby -
+searchit -eby -hlt Ebay Health And Beauty Search Test III
+searchit -eby -health Ebay Health and Beauty Search Test IV
+searchit -eby -hme Ebay Home And Garden Search Test
+searchit -eby -home Ebay Home And Garden Search Test II
+searchit -eby -grd Ebay Home And Garden Search Test III
+searchit -eby -garden Ebay Home And Garden Search Test IV
+searchit -eby -jwl Ebay Jewelry And Warches Search Test
+searchit -eby -jewelry Ebay Jewelry And Watches Search Test II
+searchit -eby -msc Ebay Music Search Test
+searchit -eby -music Ebay Music Search Test II
+searchit -eby -ins Ebay Musical Instrument Search Test
+searchit -eby -instrument Ebay Musical Instrument Search Test II
+searchit -eby -pet Ebay Pet Supplies Search Test
+searchit -eby -petsupply Ebay Pet Supplies Search Test II
+searchit -eby -pot Ebay Pottery And Glass Search Test
+searchit -eby -pottery Ebay Pottery And Glass Search Test II
+searchit -eby -rst Ebay Real State Search Test
+searchit -eby -realstate Ebay Real State Search Test II
+searchit -eby -svc Ebat Special Service Search Test
+searchit -eby -service Ebay Spacial Service Search Test II
+searchit -eby -sgd Ebay Sporting Good Service Search Test
+searchit -eby -sportinggood Ebay Sporting Good Service Search Test II
+searchit -eby -spt Ebay Sports Seach Test
+searchit -eby -sport Ebay Sports Search Test II
+searchit -eby -stm Ebay Stamp Search Test
+searchit -eby -stamp Ebay Stamp Search Test II
+searchit -eby -tkt Ebay Tickets And Experiance Search Test
+searchit -eby -ticket Ebay Tickets And Experiance Search Test II
+searchit -eby -hby Ebay Toys And Hobbies Search Test
+searchit -eby -hobby Ebay Toys And Hobbies Search Test II
+searchit -eby -toy Ebay Toys And Hobbies Search Test III
+searchit -eby -tvl Ebay Travel Search Test
+searchit -eby -travel Ebay Search Test II
+searchit -eby -gme Ebay Video Games Search Test
+searchit -eby -game Ebay Video Games Search Test II
+clear
+echo " Ebay Search Test Done"
