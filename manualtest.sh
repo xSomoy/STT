@@ -1,4 +1,96 @@
 #!/usr/bin/env bash
+totalTest=17
+#Searchit Options Check
+echo "Start Searchit Options Check? ('Ctrl+C' to cancel)"
+read x
+echo "--about"
+searchit --about
+echo "Test Done ( 01 / $totalTest )"
+read x
+clear
+echo "-a"
+searchit -a
+echo "Test Done ( 02 / $totalTest )"
+read x
+clear
+echo "--help"
+searchit --help
+echo "Test Done ( 03 / $totalTest )"
+read x
+clear
+echo "-h"
+searchit -h
+echo "Test Done ( 04 / $totalTest )"
+read x
+clear
+echo "-?"
+searchit -?
+echo "Test Done ( 05 / $totalTest )"
+read x
+clear
+echo "--uninstall"
+searchit --uninstall
+echo "Test Done ( 06 / $totalTest )"
+read x
+clear
+echo "-un"
+searchit -un
+echo "Test Done ( 07 / $totalTest )"
+read x
+clear
+echo "--update"
+searchit -u
+echo "Test Done ( 08 / $totalTest )"
+read x
+clear
+echo "-u"
+searchit --update
+echo "Test Done ( 09 / $totalTest )"
+read x
+clear
+echo "--version"
+searchit --version
+echo "Test Done ( 10 / $totalTest )"
+read x
+clear
+echo "-v"
+searchit -v
+echo "Test Done ( 11 / $totalTest )"
+read x
+clear
+echo "--config"
+searchit --config
+echo "Test Done ( 12 / $totalTest )"
+read x
+clear
+echo "-cfg"
+searchit -cfg
+echo "Test Done ( 13 / $totalTest )"
+read x
+clear
+echo "--release"
+searchit --release
+echo "Test Done ( 14 / $totalTest )"
+read x
+clear
+echo "-rn"
+searchit -rn
+echo "Test Done ( 15 / $totalTest )"
+read x
+clear
+echo "--readme"
+searchit --readme
+echo "Test Done ( 16 / $totalTest )"
+read x
+clear
+echo "-rdm"
+searchit -rdm
+echo "Test Done ( 17 / $totalTest )"
+read x
+clear
+echo " Searchit Default Search Test Done "
+echo "Total Test Done ( 17 / $totalTest )"
+
 
 # Default Search Test
 
@@ -15,6 +107,18 @@ echo "Default Search Engines Test"
 echo "Start DuckDuckGo Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "DuckDuckGo Search Test"
+echo "-h"
+searchit -ddg -h
+read x
+clear
+echo "-help"
+searchit -ddg -help
+read x
+clear
+echo "-?"
+searchit -ddg -?
+read x
+clear
 searchit -ddg Default Duckduckgo Search
 searchit -duckduckgo Default Duckduckgo Search II
 searchit -ddg -img Duckduckgo Image Search
@@ -39,6 +143,18 @@ echo "DuckDuckGo Search Test Done"
 echo "Start Google Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Google Search Test"
+echo "-h"
+searchit -ggl -h
+read x
+clear
+echo "-help"
+searchit -ggl -help
+read x
+clear
+echo "-?"
+searchit -ggl -?
+read x
+clear
 searchit -ggl Default Google Search
 searchit -google Default Google Search II
 searchit -ggl -img Google Image Search
@@ -61,6 +177,18 @@ echo "Google Search Test Done"
 echo "Start Yahoo Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Yahoo Search Test"
+echo "-h"
+searchit -yah -h
+read x
+clear
+echo "-help"
+searchit -yah -help
+read x
+clear
+echo "-?"
+searchit -yah -?
+read x
+clear
 searchit -yah Default Yahoo Search
 searchit -yahoo Default Yahoo Search II
 searchit -yah -img Yahoo Image Search
@@ -77,6 +205,18 @@ echo "Yahoo Search Test Done"
 echo "Start Bing Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Bing Search Test"
+echo "-h"
+searchit -bng -h
+read x
+clear
+echo "-help"
+searchit -bng -help
+read x
+clear
+echo "-?"
+searchit -bng -?
+read x
+clear
 searchit -bng Default Bing Search
 searchit -bing Default Bing Search II
 searchit -bng -img Bing Image Search
@@ -95,6 +235,18 @@ echo "Bing Search Test Done"
 echo "Start Yandex Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Yandex Search Test"
+echo "-h"
+searchit -ydx -h
+read x
+clear
+echo "-help"
+searchit -ydx -help
+read x
+clear
+echo "-?"
+searchit -ydx -?
+read x
+clear
 searchit -ydx Default Yandex Search
 searchit -yandex Default Yandex Search II
 searchit -ydx -img Yandex Image Search
@@ -113,6 +265,18 @@ echo "Yandex Search Test Done"
 echo "Start Baidu Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Baidu Search Test"
+echo "-h"
+searchit -bdu -h
+read x
+clear
+echo "-help"
+searchit -bdu -help
+read x
+clear
+echo "-?"
+searchit -bdu -?
+read x
+clear
 searchit -bdu Default Baidu Search
 searchit -baidu Default Baidu Search II
 searchit -bdu -img Baidu Image Search
@@ -137,6 +301,18 @@ echo "Baidu Search Test Done"
 echo "Start StarPage Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "StartPage Search Test"
+echo "-h"
+searchit -spg -h
+read x
+clear
+echo "-help"
+searchit -spg -help
+read x
+clear
+echo "-?"
+searchit -spg -?
+read x
+clear
 searchit -spg Default StartPage Search
 searchit -startpage Default StartPage Search II
 searchit -spg -img StartPage Image Search
@@ -151,6 +327,18 @@ echo "StarPage Search Test Done"
 echo "Start SearX Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "SearX Search Test"
+echo "-h"
+searchit -srx -h
+read x
+clear
+echo "-help"
+searchit -srx -help
+read x
+clear
+echo "-?"
+searchit -srx -?
+read x
+clear
 searchit -srx Default SearX Search
 searchit -searx Default SearX Search II
 searchit -srx -img SearX Image Search
@@ -178,6 +366,18 @@ echo "SearX Search Test Done"
 echo "Start Shodan Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Shodan Search Test"
+echo "-h"
+searchit -sdn -h
+read x
+clear
+echo "-help"
+searchit -sdn -help
+read x
+clear
+echo "-?"
+searchit -sdn -?
+read x
+clear
 searchit -sdn Default Shodan Search
 searchit -shodan Default Shodan Search II
 searchit -sdn -exp Shodan Exploits Search
@@ -190,6 +390,18 @@ echo "Shodan Search Test Done"
 echo "Start Qwant Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Qwant Search Test"
+echo "-h"
+searchit -qwnt -h
+read x
+clear
+echo "-help"
+searchit -qwnt -help
+read x
+clear
+echo "-?"
+searchit -qwnt -?
+read x
+clear
 searchit -qwnt Default Qwant Search
 searchit -qwant Default Qwant Search II
 searchit -qwnt -img Qwant Image Search
@@ -226,6 +438,18 @@ echo "Qwant Search Test Done"
 echo "Start Qwant Jr. Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Qwant Jr. Search Test"
+echo "-h"
+searchit -qwntjr -h
+read x
+clear
+echo "-help"
+searchit -qwntjr -help
+read x
+clear
+echo "-?"
+searchit -qwntjr -?
+read x
+clear
 searchit -qwntjr Default Qwant Jr. Search
 searchit -qwantjunior Default Qwant Jr. Search II
 searchit -qwntjr -img Qwant Jr. Image Search
@@ -251,6 +475,18 @@ echo "Qwant Jr. Search Test Done"
 echo "Start Facebook Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Facebook Search Test"
+echo "-h"
+searchit -fb -h
+read x
+clear
+echo "-help"
+searchit -fb -help
+read x
+clear
+echo "-?"
+searchit -fb -?
+read x
+clear
 searchit -fb Facebook Default Search Test
 searchit -facebook Facebook Default Search Test II
 searchit -fb -pst Facebook Post Search Test
@@ -279,6 +515,18 @@ echo "Facebook Search Test Done"
 echo "Start Twitter Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Twitter Search Test"
+echo "-h"
+searchit -ttr -h
+read x
+clear
+echo "-help"
+searchit -ttr -help
+read x
+clear
+echo "-?"
+searchit -ttr -?
+read x
+clear
 searchit -ttr Twitter Default Search Test
 searchit -twitter Twitter Default Search Test II
 searchit -ttr -lst Twitter Latest Search Test
@@ -301,6 +549,18 @@ echo "Twitter Search Test Done"
 echo "Start Reddit Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Reddit Search Test"
+echo "-h"
+searchit -rddt -h
+read x
+clear
+echo "-help"
+searchit -rddt -help
+read x
+clear
+echo "-?"
+searchit -rddt -?
+read x
+clear
 searchit -rddt Reddit Default Search Test
 searchit -reddit Reddit Default Search Test II
 searchit -rddt -pst Reddit Default Search Test
@@ -315,7 +575,19 @@ echo "Reddit Search Test Done"
 echo "Start Linkedin Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Linkedin Search Test"
-searchit -lkndn Linkedin Default Search Test
+echo "-h"
+searchit -linkedin -h
+read x
+clear
+echo "-help"
+searchit -linkedin -help
+read x
+clear
+echo "-?"
+searchit -linkedin -?
+read x
+clear
+searchit -lnkdn Linkedin Default Search Test
 searchit -linkedin Linkedin Default Search Test II
 searchit -linkedin -ppl Linkedin People Search Test
 searchit -linkedin -people Linkedin People Search Test II
@@ -334,13 +606,25 @@ searchit -linkedin -firstname Linkedin First Name Search Test II
 searchit -linkedin -lnm Linkedin Last Name Search Test
 searchit -linkedin -lastname Linkedin Last Name Search Test II
 ckear
-echo "Linkedin Search Test Done"]
+echo "Linkedin Search Test Done"
 
 # Youtube
 
 echo "Start Youtube Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Youtube Search Test"
+echo "-h"
+searchit -ytb -h
+read x
+clear
+echo "-help"
+searchit -ytb -help
+read x
+clear
+echo "-?"
+searchit -ytb -?
+read x
+clear
 seaechit -ytb Youtube Default Search Test
 searchit -youtube Youtube Default Search Test II
 searchit -ytb -vid Youtube Videos Search Test 
@@ -398,6 +682,18 @@ echo "YouTube Search Test Done"
 echo "Start Pinterest Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Pinterest Search Test"
+echo "-h"
+searchit -pntr -h
+read x
+clear
+echo "-help"
+searchit -pntr -help
+read x
+clear
+echo "-?"
+searchit -pntr -?
+read x
+clear
 searchit -pntr Pinterest Default Search Test
 searchit -pinterest Pinterest Default Search Test II
 searchit -pntr -my Pinterest Mypin Search Test
@@ -416,6 +712,18 @@ echo "Pinterest Search Test Done"
 echo "Start Tumblr Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Tumblr Search Test"
+echo "-h"
+searchit -tmblr -h
+read x
+clear
+echo "-help"
+searchit -tmblr -help
+read x
+clear
+echo "-?"
+searchit -tmblr -?
+read x
+clear
 searchit -tmblr Tumblr Default Search Test
 searchit -tumblr Tumbler Default Search Test II
 clear
@@ -426,6 +734,18 @@ echo "Tumbler Search Test Done"
 echo "Start Quora Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Quora Search Test"
+echo "-h"
+searchit -qra -h
+read x
+clear
+echo "-help"
+searchit -qra -help
+read x
+clear
+echo "-?"
+searchit -qra -?
+read x
+clear
 searchit -qra Quora Default Search Test
 searchit -quora Quora Default Search Test II
 searchit -qra -qsn Quora Question Search Test 
@@ -450,6 +770,18 @@ echo "Quora Search Test Done"
 echo "Start Wikipedia Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Wikipedia Search Test"
+echo "-h"
+searchit -wiki -h
+read x
+clear
+echo "-help"
+searchit -wiki -help
+read x
+clear
+echo "-?"
+searchit -wiki -?
+read x
+clear
 searchit -wiki Wikipedia Default Search Test
 searchit -wikipedia Wikipedia Default Search Test II
 clear
@@ -460,6 +792,18 @@ echo "wikipedia Search Test Done"
 echo "Start StackOverFlow Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "StackOverFlow Search Test"
+echo "-h"
+searchit -stkof -h
+read x
+clear
+echo "-help"
+searchit -stkof -help
+read x
+clear
+echo "-?"
+searchit -stkof -?
+read x
+clear
 searchit -stkof StackOverFlow Default Search Test
 searchit -stackoverflow Default Search Test II
 searchit -stkof -new StackOverFlow Newst Search Test
@@ -478,6 +822,18 @@ echo "StackOverFlow Search Test Done"
 echo "Start Gitlab Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Gitlab Search Test"
+echo "-h"
+searchit -gtlb -h
+read x
+clear
+echo "-help"
+searchit -gtlb -help
+read x
+clear
+echo "-?"
+searchit -gtlb -?
+read x
+clear
 searchit -gtlb Gitlab Default Search Test
 searchit -gitlab Gitlab Default Search Test II
 searchit -gtlb -isu Gitlab Issue Search Test
@@ -496,6 +852,18 @@ echo "Gitlab Search Test Done"
 echo "Start Github Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Github Search Test"
+echo "-h"
+searchit -gthb -h
+read x
+clear
+echo "-help"
+searchit -gthb -help
+read x
+clear
+echo "-?"
+searchit -gthb -?
+read x
+clear
 searchit -gthb Github Default Search Test
 searchit -github Github Default Search Test II
 searchit -gthb -isu Github Issue Search Test
@@ -524,6 +892,18 @@ echo "Github Search Test Done"
 echo "Start Amazon Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Amazon Search Test"
+echo "-h"
+searchit -amzn -h
+read x
+clear
+echo "-help"
+searchit -amzn -help
+read x
+clear
+echo "-?"
+searchit -amzn -?
+read x
+clear
 searchit -amzn Amazon Default Search Test
 serachit -amazon Amazon Default Search Test II
 searchit -amzn -art Amazon Arts And Crafts Search Test
@@ -589,11 +969,23 @@ searchit -amzn -game Amazon Game Search Test II
 clear
 echo "Amazon Search Test Done"
 
-# Amazon
+# Ebay
 
 echo "Start Ebay Search Test? ('Ctrl+C' to cancel)"
 read x
 echo "Ebay Search Test"
+echo "-h"
+searchit -eby -h
+read x
+clear
+echo "-help"
+searchit -eby -help
+read x
+clear
+echo "-?"
+searchit -eby -?
+read x
+clear
 searchit -eby Ebay Default Search Test
 searchit -ebay Ebay Default Search Test II
 searchit -eby -atq Ebay Antique Search Test
