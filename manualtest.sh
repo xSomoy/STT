@@ -96,6 +96,7 @@ echo "Total Test Done ( 17 / $totalTest )"
 
 echo " Default Search Test"
 searchit Default Search
+echo "Total Test Done ( 18 / $totalTest )"
 
 
 #  Search Engine Test
@@ -109,34 +110,55 @@ read x
 echo "DuckDuckGo Search Test"
 echo "-h"
 searchit -ddg -h
+echo "Test Done ( 19 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ddg -help
+echo "Test Done ( 20 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ddg -?
+echo "Test Done ( 21 / $totalTest )"
 read x
 clear
 searchit -ddg Default Duckduckgo Search
+echo "Test Done ( 22 / $totalTest )"
 searchit -duckduckgo Default Duckduckgo Search II
+echo "Test Done ( 23 / $totalTest )"
 searchit -ddg -img Duckduckgo Image Search
+echo "Test Done ( 24 / $totalTest )"
 searchit -ddg -image Duckduckgo Image Search II
+echo "Test Done ( 25 / $totalTest )"
 searchit -ddg -vid Duckduckgo Video Search
+echo "Test Done ( 26 / $totalTest )"
 searchit -ddg -video Duckduckgo Video Search II
+echo "Test Done ( 27 / $totalTest )"
 searchit -ddg -nws Duckduckgo News Search
+echo "Test Done ( 28 / $totalTest )"
 searchit -ddg -news DuckDuckGo News Search II
+echo "Test Done ( 29 / $totalTest )"
 searchit -ddg -mns Duckduckgo meanings search
+echo "Test Done ( 30 / $totalTest )"
 searchit -ddg -meanings DuckDuckGo meanings search II
+echo "Test Done ( 31 / $totalTest )"
 searchit -ddg -ans DuckDuckGo Answer Search
+echo "Test Done ( 32 / $totalTest )"
 searchit -ddg -answer DuckDuckGo answer search II
+echo "Test Done ( 33 / $totalTest )"
 searchit -ddg -ntr DuckDuckGo Nutrition Search 
+echo "Test Done ( 34 / $totalTest )"
 searchit -ddg -nutrition DuckDuckGo Nutrition Search II
+echo "Test Done ( 35 / $totalTest )"
 searchit -ddg -rcp DuckDuckGo recipes search
+echo "Test Done ( 36 / $totalTest )"
 searchit -ddg -recipes DuckDuckGo recipes Search II
+echo "Test Done ( 37 / $totalTest )"
 clear
 echo "DuckDuckGo Search Test Done"
+echo "Total Test Done ( 37 / $totalTest )"
+
 
 #Google 
 
@@ -145,32 +167,50 @@ read x
 echo "Google Search Test"
 echo "-h"
 searchit -ggl -h
+echo "Test Done ( 38 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ggl -help
+echo "Test Done ( 39 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ggl -?
+echo "Test Done ( 40 / $totalTest )"
 read x
 clear
 searchit -ggl Default Google Search
+echo "Test Done ( 41 / $totalTest )"
 searchit -google Default Google Search II
+echo "Test Done ( 42 / $totalTest )"
 searchit -ggl -img Google Image Search
+echo "Test Done ( 43 / $totalTest )"
 searchit -ggl -image Google Image Search II
+echo "Test Done ( 44 / $totalTest )"
 searchit -ggl -vid Google Video Search
+echo "Test Done ( 45 / $totalTest )"
 searchit -ggl -video Google Video Search II
+echo "Test Done ( 46 / $totalTest )"
 searchit -ggl -nws Gooogle News Search
+echo "Test Done ( 47 / $totalTest )"
 searchit -ggl -news Google News Search II
+echo "Test Done ( 48 / $totalTest )"
 searchit -ggl -bks Google Book Search
+echo "Test Done ( 49 / $totalTest )"
 searchit -ggl -books Google Book Search II
+echo "Test Done ( 50 / $totalTest )"
 searchit -ggl -fnc Google Finance Search
+echo "Test Done ( 51 / $totalTest )"
 searchit -ggl -finance google Finance Search II
+echo "Test Done ( 52 / $totalTest )"
 searchit -ggl -map Google Map Search
+echo "Test Done ( 53 / $totalTest )"
 searchit -ggl -maps Google Map Search II
+echo "Test Done ( 54 / $totalTest )"
 clear
 echo "Google Search Test Done"
+echo "Total Test Done ( 54 / $totalTest )"
 
 # Yahoo
 
@@ -179,26 +219,38 @@ read x
 echo "Yahoo Search Test"
 echo "-h"
 searchit -yah -h
+echo "Test Done ( 55 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -yah -help
+echo "Test Done ( 56 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -yah -?
+echo "Test Done ( 57 / $totalTest )"
 read x
 clear
 searchit -yah Default Yahoo Search
+echo "Test Done ( 58 / $totalTest )"
 searchit -yahoo Default Yahoo Search II
+echo "Test Done ( 59 / $totalTest )"
 searchit -yah -img Yahoo Image Search
+echo "Test Done ( 60 / $totalTest )"
 searchit -yah -image Yahoo Image Search II
+echo "Test Done ( 61 / $totalTest )"
 searchit -yah -vid Yahoo Video Search
+echo "Test Done ( 62 / $totalTest )"
 searchit -yah -video Yahoo Video Search II
+echo "Test Done ( 63 / $totalTest )"
 searchit -yah -nws Yahoo News Search
+echo "Test Done ( 64 / $totalTest )"
 searchit -yah -news Yahoo News Search II
+echo "Test Done ( 65 / $totalTest )"
 clear
 echo "Yahoo Search Test Done"
+echo "Total Test Done ( 65 / $totalTest )"
 
 #Bing
 
@@ -207,29 +259,42 @@ read x
 echo "Bing Search Test"
 echo "-h"
 searchit -bng -h
+echo "Test Done ( 66 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -bng -help
+echo "Test Done ( 67 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -bng -?
+echo "Test Done ( 68 / $totalTest )"
 read x
 clear
 searchit -bng Default Bing Search
+echo "Test Done ( 69 / $totalTest )"
 searchit -bing Default Bing Search II
+echo "Test Done ( 70 / $totalTest )"
 searchit -bng -img Bing Image Search
+echo "Test Done ( 71 / $totalTest )"
 searchit -bng -image Bing Image Search II
+echo "Test Done ( 72 / $totalTest )"
 searchit -bng -vid Bing Video Search
+echo "Test Done ( 73 / $totalTest )"
 searchit -bng -video Bing Video Search II
+echo "Test Done ( 74 / $totalTest )"
 searchit -bng -nws Bing News Search
+echo "Test Done ( 75 / $totalTest )"
 searchit -bng -news Bing News Search II
+echo "Test Done ( 76 / $totalTest )"
 searchit -bng -nws Bing Map Search
+echo "Test Done ( 77 / $totalTest )"
 searchit -bng -news Bing Map Search II
+echo "Test Done ( 78 / $totalTest )"
 clear
 echo "Bing Search Test Done"
-
+echo "Total Test Done ( 78 / $totalTest )"
 #Yandex
 
 echo "Start Yandex Search Test? ('Ctrl+C' to cancel)"
@@ -237,28 +302,42 @@ read x
 echo "Yandex Search Test"
 echo "-h"
 searchit -ydx -h
+echo "Test Done ( 79 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ydx -help
+echo "Test Done ( 80 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ydx -?
+echo "Test Done ( 81 / $totalTest )"
 read x
 clear
 searchit -ydx Default Yandex Search
+echo "Test Done ( 82 / $totalTest )"
 searchit -yandex Default Yandex Search II
+echo "Test Done ( 83 / $totalTest )"
 searchit -ydx -img Yandex Image Search
+echo "Test Done ( 84 / $totalTest )"
 searchit -ydx -image Yandex Image Search II
+echo "Test Done ( 85 / $totalTest )"
 searchit -ydx -vid Yandex Video Search
+echo "Test Done ( 86 / $totalTest )"
 searchit -ydx -video Yandex Video Search II
+echo "Test Done ( 87 / $totalTest )"
 searchit -ydx -nws Yandex News Search
+echo "Test Done ( 88 / $totalTest )"
 searchit -ydx -news Yandex News Search II
+echo "Test Done ( 89 / $totalTest )"
 searchit -ydx -nws Yandex Map Search
+echo "Test Done ( 90 / $totalTest )"
 searchit -ydx -news Yandex Map Search II
+echo "Test Done ( 91 / $totalTest )"
 clear
 echo "Yandex Search Test Done"
+echo "Total Test Done ( 91 / $totalTest )"
 
 #Baidu
 
@@ -267,34 +346,54 @@ read x
 echo "Baidu Search Test"
 echo "-h"
 searchit -bdu -h
+echo "Test Done ( 92 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -bdu -help
+echo "Test Done ( 93 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -bdu -?
+echo "Test Done ( 94 / $totalTest )"
 read x
 clear
 searchit -bdu Default Baidu Search
+echo "Test Done ( 95 / $totalTest )"
 searchit -baidu Default Baidu Search II
+echo "Test Done ( 96 / $totalTest )"
 searchit -bdu -img Baidu Image Search
+echo "Test Done ( 97 / $totalTest )"
 searchit -bdu -image Baidu Image Search II
+echo "Test Done ( 98 / $totalTest )"
 searchit -bdu -vid Baidu Video Search
+echo "Test Done ( 99 / $totalTest )"
 searchit -bdu -video Baidu Video Search II
+echo "Test Done ( 100 / $totalTest )"
 searchit -bdu -nws Baidu News Search
+echo "Test Done ( 101 / $totalTest )"
 searchit -bdu -news Baidu News Search II
+echo "Test Done ( 102 / $totalTest )"
 searchit -bdu -map Baidu Map Search
+echo "Test Done ( 103 / $totalTest )"
 searchit -bdu -maps Baidu Map Search II
+echo "Test Done ( 104 / $totalTest )"
 searchit -bdu -msc Baidu Music Search
+echo "Test Done ( 105 / $totalTest )"
 searchit -bdu -music Baidu Music Search II
+echo "Test Done ( 106 / $totalTest )"
 searchit -bdu -aca Baidu Academic Search
+echo "Test Done ( 107 / $totalTest )"
 searchit -bdu -academic Baidu Academic Search II
+echo "Test Done ( 108 / $totalTest )"
 searchit -bdu -knw Baidu Know Search
+echo "Test Done ( 109 / $totalTest )"
 searchit -bdu -know Baidu Know Search II
+echo "Test Done ( 110 / $totalTest )"
 clear
 echo "Baidu Search Test Done"
+echo "Total Test Done ( 110 / $totalTest )"
 
 #StartPage
 
@@ -303,24 +402,34 @@ read x
 echo "StartPage Search Test"
 echo "-h"
 searchit -spg -h
+echo "Test Done ( 111 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -spg -help
+echo "Test Done ( 112 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -spg -?
+echo "Test Done ( 113 / $totalTest )"
 read x
 clear
 searchit -spg Default StartPage Search
+echo "Test Done ( 114 / $totalTest )"
 searchit -startpage Default StartPage Search II
+echo "Test Done ( 115 / $totalTest )"
 searchit -spg -img StartPage Image Search
+echo "Test Done ( 116 / $totalTest )"
 searchit -spg -image StartPage Image Search II
+echo "Test Done ( 117 / $totalTest )"
 searchit -spg -vid StartPage Video Search
+echo "Test Done ( 118 / $totalTest )"
 searchit -spg -video StartPage Video Search II
+echo "Test Done ( 119 / $totalTest )"
 clear
 echo "StarPage Search Test Done"
+echo "Total Test Done ( 119 / $totalTest )"
 
 #SearX
 
@@ -329,37 +438,60 @@ read x
 echo "SearX Search Test"
 echo "-h"
 searchit -srx -h
+echo "Test Done ( 120 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -srx -help
+echo "Test Done ( 121 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -srx -?
+echo "Test Done ( 122 / $totalTest )"
 read x
 clear
 searchit -srx Default SearX Search
+echo "Test Done ( 123 / $totalTest )"
 searchit -searx Default SearX Search II
+echo "Test Done ( 124 / $totalTest )"
 searchit -srx -img SearX Image Search
+echo "Test Done ( 125 / $totalTest )"
 searchit -srx -image SearX Image Search II
+echo "Test Done ( 126 / $totalTest )"
 searchit -srx -vid SearX Video Search
+echo "Test Done ( 127 / $totalTest )"
 searchit -srx -video SearX Video Search II
+echo "Test Done ( 128 / $totalTest )"
 searchit -srx -nws SearX News Search
+echo "Test Done ( 129 / $totalTest )"
 searchit -srx -news SearX News Search II
+echo "Test Done ( 130 / $totalTest )"
 searchit -srx -map SearX Map Search
+echo "Test Done ( 131 / $totalTest )"
 searchit -srx -maps SearX Map Search II
+echo "Test Done ( 132 / $totalTest )"
 searchit -srx -msc SearX Music Search
+echo "Test Done ( 133 / $totalTest )"
 searchit -srx -music SearX Music Search II
+echo "Test Done ( 134 / $totalTest )"
 searchit -srx -fls SearX Files Search
+echo "Test Done ( 135 / $totalTest )"
 searchit -srx -files SearX Files Search II
+echo "Test Done ( 136 / $totalTest )"
 searchit -srx -it SearX It Search
+echo "Test Done ( 137 / $totalTest )"
 searchit -srx -sci SearX Science Search
+echo "Test Done ( 138 / $totalTest )"
 searchit -srx -science SearX Science Search II
+echo "Test Done ( 139 / $totalTest )"
 searchit -srx -scl SearX Social Media Search
+echo "Test Done ( 140 / $totalTest )"
 searchit -srx -social SearX Social Media Search II
+echo "Test Done ( 141 / $totalTest )"
 clear
 echo "SearX Search Test Done"
+echo "Total Test Done ( 141 / $totalTest )"
 
 # shodan
 
@@ -368,22 +500,30 @@ read x
 echo "Shodan Search Test"
 echo "-h"
 searchit -sdn -h
+echo "Test Done ( 142 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -sdn -help
+echo "Test Done ( 143 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -sdn -?
+echo "Test Done ( 144 / $totalTest )"
 read x
 clear
 searchit -sdn Default Shodan Search
+echo "Test Done ( 145 / $totalTest )"
 searchit -shodan Default Shodan Search II
+echo "Test Done ( 146 / $totalTest )"
 searchit -sdn -exp Shodan Exploits Search
+echo "Test Done ( 147 / $totalTest )"
 searchit -shodan -exploit Shodan Exploits Search II
+echo "Test Done ( 148 / $totalTest )"
 clear
 echo "Shodan Search Test Done"
+echo "Total Test Done ( 148 / $totalTest )"
 
 #qwant
 
