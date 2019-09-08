@@ -588,3 +588,60 @@ searchit -amzn -gme Amazon  Games Search Test
 searchit -amzn -game Amazon Game Search Test II
 clear
 echo "Amazon Search Test Done"
+
+# Amazon
+
+echo "Start Ebay Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Ebay Search Test"
+searchit -eby Ebay Default Search Test
+searchit -ebay Ebay Default Search Test II
+searchit -eby -atq Ebay Antique Search Test
+searchit -eby -antique Ebay Antique Search Test
+searchit -eby -art Ebay Art Search Test
+searchit -eby -bby Ebay Baby Search Test
+searchit -eby -baby Ebay Baby Search Test II
+searchit -eby -bks Ebay Search Test
+searchit -eby -book Ebay Books Search Test II
+searchit -eby -bsn Ebay Business And Industrial Search Test
+searchit -eby -business Ebay Business And Industrial Search Test II 
+searchit -eby -ids Ebay Business And Industrial Search Test III
+searchit -eby -industrial Ebay Business And Industrial Search Test VI
+searchit -eby -cmr Ebay Camera And Photo Accesories Search Test
+searchit -eby -camera Ebay Camera And Photo Accesories Search Test II
+searchit -eby -pht Ebay Camera And Photo Accesories Search Test III
+searchit -eby -photo Ebay Camera And Photo Accesories Search Test IV
+searchit -eby -clt Ebay Clothes, Shoes And Accesories Search Test
+searchit -eby -clothe Ebay Clothes, Shoes And Accesories Search Test II
+searchit -eby -sho Ebay Clothes, Shoes And Accesories Search Test III
+searchit -eby -shoe Ebay Clothes, Shoes And Accesories Search Test IV
+searchit -eby -cin Ebay Coin And Paper Money Search Test
+searchit -eby -coin Ebay Coin And Paper Money Search Test II
+searchit -eby -mny Ebay Coin And Paper Money Search Test III
+searchit -eby -money Ebay Coin And Paper Money Seach Test IV
+searchit -eby -clt Ebay Collecttbles Search Test
+searchit -eby -collectibles Ebay Collecttbles Search Test II
+searchit -eby -com Ebay Computer Search Test
+searchit -eby -computer Ebay Computer Search Test II
+searchit -eby -elc Ebay Electronics Search Test
+searchit -eby -electronic Ebay Electronics Search Test II
+searchit -eby -cft Ebay Crafts Search Test
+searchit -eby -craft Ebay Crafts Searc Test II
+searchit -eby -dll Ebay Dolls And Bears Search Test
+searchit -eby -doll Ebay Dolls And Bears Search Test II
+searchit -eby -ber Ebay Dolls And Bears Search Test III
+searchit -eby -bear Ebay Dolls And Bears Search Test IV
+searchit -eby -mve Ebay DVDs And Movies Search Test
+searchit -eby -movie Ebay DVDs And Movies Search Test II
+searchit -eby -dvd Ebay DVDs And Movies Search Test III
+searchit -eby -mtr Ebay Motos Search Test
+searchit -eby -motor Ebay Motors Search Test II
+searchit -eby -ent Ebay Enterteinment Search Test
+searchit -eby -enterteinment Ebay Enterteinment Searh Test II
+searchit -eby -evy Ebay Everything Serch Test
+searchit -eby -everything Ebay Everything Search Test II
+searchit -eby -cpn Ebay Gifts And Coupns Search Test
+searchit -eby -coupon Ebay Gifts And Coupons Search Test II
+searchit -eby -bty Ebay Health And Beauty Search Test
+searchit -eby -beauty Ebay Health And Beauty Search Test II
+searchit -eby -
