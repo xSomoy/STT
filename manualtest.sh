@@ -1,103 +1,197 @@
 #!/usr/bin/env bash
-totalTest=17
+totalTest=562
+testDone=0
 #Searchit Options Check
 echo "Start Searchit Options Check? ('Ctrl+C' to cancel)"
 read x
 echo "--about"
 searchit --about
-echo "Test Done ( 01 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-a"
 searchit -a
-echo "Test Done ( 02 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--help"
 searchit --help
-echo "Test Done ( 03 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-h"
 searchit -h
-echo "Test Done ( 04 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -?
-echo "Test Done ( 05 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--uninstall"
 searchit --uninstall
-echo "Test Done ( 06 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-un"
 searchit -un
-echo "Test Done ( 07 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--update"
 searchit -u
-echo "Test Done ( 08 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-u"
 searchit --update
-echo "Test Done ( 09 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--version"
 searchit --version
-echo "Test Done ( 10 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-v"
 searchit -v
-echo "Test Done ( 11 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--config"
 searchit --config
-echo "Test Done ( 12 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-cfg"
 searchit -cfg
-echo "Test Done ( 13 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--release"
 searchit --release
-echo "Test Done ( 14 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-rn"
 searchit -rn
-echo "Test Done ( 15 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "--readme"
 searchit --readme
-echo "Test Done ( 16 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-rdm"
 searchit -rdm
-echo "Test Done ( 17 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo " Searchit Default Search Test Done "
-echo "Total Test Done ( 17 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 
 # Default Search Test
 
 echo " Default Search Test"
 searchit Default Search
-echo "Total Test Done ( 18 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
+# Duck Search Test
+
+echo "Start Duckit Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Duckit Search Test"
+echo "-h"
+duckit -h
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+read x
+clear
+echo "-help"
+duckit -help
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+read x
+clear
+echo "-?"
+duckit -?
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+read x
+clear
+duckit Default Duckduckgo Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+searchit -duckduckgo Default Duckduckgo Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -img Duckduckgo Image Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -image Duckduckgo Image Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -vid Duckduckgo Video Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -video Duckduckgo Video Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -nws Duckduckgo News Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -news DuckDuckGo News Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -mns Duckduckgo meanings search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -meanings DuckDuckGo meanings search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -ans DuckDuckGo Answer Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -answer DuckDuckGo answer search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -ntr DuckDuckGo Nutrition Search 
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -nutrition DuckDuckGo Nutrition Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -rcp DuckDuckGo recipes search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+duckit -recipes DuckDuckGo recipes Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+clear
+echo "Duckit Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #  Search Engine Test
 
@@ -110,54 +204,73 @@ read x
 echo "DuckDuckGo Search Test"
 echo "-h"
 searchit -ddg -h
-echo "Test Done ( 19 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ddg -help
-echo "Test Done ( 20 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ddg -?
-echo "Test Done ( 21 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 searchit -ddg Default Duckduckgo Search
-echo "Test Done ( 22 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -duckduckgo Default Duckduckgo Search II
-echo "Test Done ( 23 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -img Duckduckgo Image Search
-echo "Test Done ( 24 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -image Duckduckgo Image Search II
-echo "Test Done ( 25 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -vid Duckduckgo Video Search
-echo "Test Done ( 26 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -video Duckduckgo Video Search II
-echo "Test Done ( 27 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -nws Duckduckgo News Search
-echo "Test Done ( 28 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -news DuckDuckGo News Search II
-echo "Test Done ( 29 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -mns Duckduckgo meanings search
-echo "Test Done ( 30 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -meanings DuckDuckGo meanings search II
-echo "Test Done ( 31 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -ans DuckDuckGo Answer Search
-echo "Test Done ( 32 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -answer DuckDuckGo answer search II
-echo "Test Done ( 33 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -ntr DuckDuckGo Nutrition Search 
-echo "Test Done ( 34 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -nutrition DuckDuckGo Nutrition Search II
-echo "Test Done ( 35 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -rcp DuckDuckGo recipes search
-echo "Test Done ( 36 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ddg -recipes DuckDuckGo recipes Search II
-echo "Test Done ( 37 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 clear
 echo "DuckDuckGo Search Test Done"
-echo "Total Test Done ( 37 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 
 #Google 
@@ -167,50 +280,67 @@ read x
 echo "Google Search Test"
 echo "-h"
 searchit -ggl -h
-echo "Test Done ( 38 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ggl -help
-echo "Test Done ( 39 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ggl -?
-echo "Test Done ( 40 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 searchit -ggl Default Google Search
-echo "Test Done ( 41 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -google Default Google Search II
-echo "Test Done ( 42 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -img Google Image Search
-echo "Test Done ( 43 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -image Google Image Search II
-echo "Test Done ( 44 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -vid Google Video Search
-echo "Test Done ( 45 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -video Google Video Search II
-echo "Test Done ( 46 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -nws Gooogle News Search
-echo "Test Done ( 47 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -news Google News Search II
-echo "Test Done ( 48 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -bks Google Book Search
-echo "Test Done ( 49 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -books Google Book Search II
-echo "Test Done ( 50 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -fnc Google Finance Search
-echo "Test Done ( 51 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -finance google Finance Search II
-echo "Test Done ( 52 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -map Google Map Search
-echo "Test Done ( 53 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ggl -maps Google Map Search II
-echo "Test Done ( 54 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 clear
 echo "Google Search Test Done"
-echo "Total Test Done ( 54 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Yahoo
 
@@ -219,38 +349,49 @@ read x
 echo "Yahoo Search Test"
 echo "-h"
 searchit -yah -h
-echo "Test Done ( 55 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -yah -help
-echo "Test Done ( 56 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -yah -?
-echo "Test Done ( 57 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 searchit -yah Default Yahoo Search
-echo "Test Done ( 58 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yahoo Default Yahoo Search II
-echo "Test Done ( 59 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yah -img Yahoo Image Search
-echo "Test Done ( 60 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yah -image Yahoo Image Search II
-echo "Test Done ( 61 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yah -vid Yahoo Video Search
-echo "Test Done ( 62 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yah -video Yahoo Video Search II
-echo "Test Done ( 63 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yah -nws Yahoo News Search
-echo "Test Done ( 64 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yah -news Yahoo News Search II
-echo "Test Done ( 65 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 clear
 echo "Yahoo Search Test Done"
-echo "Total Test Done ( 65 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #Bing
 
@@ -259,42 +400,56 @@ read x
 echo "Bing Search Test"
 echo "-h"
 searchit -bng -h
-echo "Test Done ( 66 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -bng -help
-echo "Test Done ( 67 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -bng -?
-echo "Test Done ( 68 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 searchit -bng Default Bing Search
-echo "Test Done ( 69 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bing Default Bing Search II
-echo "Test Done ( 70 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -img Bing Image Search
-echo "Test Done ( 71 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -image Bing Image Search II
-echo "Test Done ( 72 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -vid Bing Video Search
-echo "Test Done ( 73 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -video Bing Video Search II
-echo "Test Done ( 74 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -nws Bing News Search
-echo "Test Done ( 75 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -news Bing News Search II
-echo "Test Done ( 76 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -nws Bing Map Search
-echo "Test Done ( 77 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -news Bing Map Search II
-echo "Test Done ( 78 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 clear
 echo "Bing Search Test Done"
-echo "Total Test Done ( 78 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
+
 #Yandex
 
 echo "Start Yandex Search Test? ('Ctrl+C' to cancel)"
@@ -302,42 +457,55 @@ read x
 echo "Yandex Search Test"
 echo "-h"
 searchit -ydx -h
-echo "Test Done ( 79 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ydx -help
-echo "Test Done ( 80 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ydx -?
-echo "Test Done ( 81 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
 searchit -ydx Default Yandex Search
-echo "Test Done ( 82 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -yandex Default Yandex Search II
-echo "Test Done ( 83 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ydx -img Yandex Image Search
-echo "Test Done ( 84 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ydx -image Yandex Image Search II
-echo "Test Done ( 85 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
 searchit -ydx -vid Yandex Video Search
-echo "Test Done ( 86 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ydx -video Yandex Video Search II
-echo "Test Done ( 87 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ydx -nws Yandex News Search
-echo "Test Done ( 88 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ydx -news Yandex News Search II
-echo "Test Done ( 89 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ydx -nws Yandex Map Search
-echo "Test Done ( 90 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ydx -news Yandex Map Search II
-echo "Test Done ( 91 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Yandex Search Test Done"
-echo "Total Test Done ( 91 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #Baidu
 
@@ -346,54 +514,73 @@ read x
 echo "Baidu Search Test"
 echo "-h"
 searchit -bdu -h
-echo "Test Done ( 92 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -bdu -help
-echo "Test Done ( 93 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -bdu -?
-echo "Test Done ( 94 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -bdu Default Baidu Search
-echo "Test Done ( 95 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -baidu Default Baidu Search II
-echo "Test Done ( 96 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -img Baidu Image Search
-echo "Test Done ( 97 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -image Baidu Image Search II
-echo "Test Done ( 98 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -vid Baidu Video Search
-echo "Test Done ( 99 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -video Baidu Video Search II
-echo "Test Done ( 100 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -nws Baidu News Search
-echo "Test Done ( 101 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -news Baidu News Search II
-echo "Test Done ( 102 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -map Baidu Map Search
-echo "Test Done ( 103 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -maps Baidu Map Search II
-echo "Test Done ( 104 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -msc Baidu Music Search
-echo "Test Done ( 105 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -music Baidu Music Search II
-echo "Test Done ( 106 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -aca Baidu Academic Search
-echo "Test Done ( 107 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -academic Baidu Academic Search II
-echo "Test Done ( 108 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -knw Baidu Know Search
-echo "Test Done ( 109 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -bdu -know Baidu Know Search II
-echo "Test Done ( 110 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Baidu Search Test Done"
-echo "Total Test Done ( 110 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #StartPage
 
@@ -402,34 +589,43 @@ read x
 echo "StartPage Search Test"
 echo "-h"
 searchit -spg -h
-echo "Test Done ( 111 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -spg -help
-echo "Test Done ( 112 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -spg -?
-echo "Test Done ( 113 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -spg Default StartPage Search
-echo "Test Done ( 114 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -startpage Default StartPage Search II
-echo "Test Done ( 115 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -spg -img StartPage Image Search
-echo "Test Done ( 116 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -spg -image StartPage Image Search II
-echo "Test Done ( 117 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -spg -vid StartPage Video Search
-echo "Test Done ( 118 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -spg -video StartPage Video Search II
-echo "Test Done ( 119 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "StarPage Search Test Done"
-echo "Total Test Done ( 119 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #SearX
 
@@ -438,60 +634,82 @@ read x
 echo "SearX Search Test"
 echo "-h"
 searchit -srx -h
-echo "Test Done ( 120 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -srx -help
-echo "Test Done ( 121 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -srx -?
-echo "Test Done ( 122 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -srx Default SearX Search
-echo "Test Done ( 123 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -searx Default SearX Search II
-echo "Test Done ( 124 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -img SearX Image Search
-echo "Test Done ( 125 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -image SearX Image Search II
-echo "Test Done ( 126 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -vid SearX Video Search
-echo "Test Done ( 127 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -video SearX Video Search II
-echo "Test Done ( 128 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -nws SearX News Search
-echo "Test Done ( 129 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -news SearX News Search II
-echo "Test Done ( 130 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -map SearX Map Search
-echo "Test Done ( 131 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -maps SearX Map Search II
-echo "Test Done ( 132 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -msc SearX Music Search
-echo "Test Done ( 133 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -music SearX Music Search II
-echo "Test Done ( 134 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -fls SearX Files Search
-echo "Test Done ( 135 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -files SearX Files Search II
-echo "Test Done ( 136 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -it SearX It Search
-echo "Test Done ( 137 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -sci SearX Science Search
-echo "Test Done ( 138 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -science SearX Science Search II
-echo "Test Done ( 139 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -scl SearX Social Media Search
-echo "Test Done ( 140 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -srx -social SearX Social Media Search II
-echo "Test Done ( 141 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "SearX Search Test Done"
-echo "Total Test Done ( 141 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # shodan
 
@@ -500,30 +718,37 @@ read x
 echo "Shodan Search Test"
 echo "-h"
 searchit -sdn -h
-echo "Test Done ( 142 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -sdn -help
-echo "Test Done ( 143 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -sdn -?
-echo "Test Done ( 144 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -sdn Default Shodan Search
-echo "Test Done ( 145 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -shodan Default Shodan Search II
-echo "Test Done ( 146 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -sdn -exp Shodan Exploits Search
-echo "Test Done ( 147 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -shodan -exploit Shodan Exploits Search II
-echo "Test Done ( 148 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Shodan Search Test Done"
-echo "Total Test Done ( 148 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #qwant
 
@@ -532,78 +757,109 @@ read x
 echo "Qwant Search Test"
 echo "-h"
 searchit -qwnt -h
-echo "Test Done ( 149 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -qwnt -help
-echo "Test Done ( 150 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -qwnt -?
-echo "Test Done ( 151 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -qwnt Default Qwant Search
-echo "Test Done ( 152 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwant Default Qwant Search II
-echo "Test Done ( 153 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -img Qwant Image Search
-echo "Test Done ( 154 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -image Qwant Image Search II
-echo "Test Done ( 155 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -vid Qwant Video Search
-echo "Test Done ( 156 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -video Qwant Video Search II
-echo "Test Done ( 157 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -nws Qwant News Search
-echo "Test Done ( 158 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -news Qwant News Search II
-echo "Test Done ( 159 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -map Qwant Map Search
-echo "Test Done ( 160 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -maps Qwant Map Search II
-echo "Test Done ( 161 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -msc Qwant Music Search
-echo "Test Done ( 162 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -music Qwant Music Search II
-echo "Test Done ( 163 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -spg Qwant Shopping Search
-echo "Test Done ( 164 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -shopping Qwant Shopping Search II
-echo "Test Done ( 165 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -abm Qwant Album Search
-echo "Test Done ( 166 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -album Qwant Album Search II
-echo "Test Done ( 167 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -art Qwant Artist Search
-echo "Test Done ( 168 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -artist Qwant Artist Search II
-echo "Test Done ( 169 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -sng Qwant Songs Search
-echo "Test Done ( 170 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -song Qwant Songs Search II
-echo "Test Done ( 171 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -scl Qwant Social Media Search
-echo "Test Done ( 172 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -social Qwant Social Media Search II
-echo "Test Done ( 173 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -cas Qwant Causes Search
-echo "Test Done ( 174 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -cause Qwant Causes Search II
-echo "Test Done ( 175 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -cvw Qwant Causes Overview Search
-echo "Test Done ( 176 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -causesoverview Qwant Causes Overview Search II
-echo "Test Done ( 177 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -asn Qwant Asssocian Search
-echo "Test Done ( 178 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -asssocian Qwant Asssocian Search II
-echo "Test Done ( 179 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Qwant Search Test Done"
-echo "Total Test Done ( 179 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #qwantjunior
 
@@ -612,50 +868,67 @@ read x
 echo "Qwant Jr. Search Test"
 echo "-h"
 searchit -qwntjr -h
-echo "Test Done ( 180 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -qwntjr -help
-echo "Test Done ( 181 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -qwntjr -?
-echo "Test Done ( 182 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -qwntjr Default Qwant Jr. Search
-echo "Test Done ( 183 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwantjunior Default Qwant Jr. Search II
-echo "Test Done ( 184 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -img Qwant Jr. Image Search
-echo "Test Done ( 185 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -image Qwant Jr. Image Search II
-echo "Test Done ( 186 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -vid Qwant Jr. Video Search
-echo "Test Done ( 187 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -video Qwant Jr. Video Search II
-echo "Test Done ( 188 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -nws Qwant Jr. News Search
-echo "Test Done ( 189 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -news Qwant Jr. News Search II
-echo "Test Done ( 190 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -edu Qwant Jr. Education Search
-echo "Test Done ( 191 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -education Qwant Jr. Education Search II
-echo "Test Done ( 192 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -nte Qwant Jr. Notes Search
-echo "Test Done ( 193 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -note Qwant Jr. Notes Search II
-echo "Test Done ( 194 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -brd Qwant Jr. Boards Search
-echo "Test Done ( 195 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qwntjr -board Qwant Jr. Boards Search II
-echo "Test Done ( 196 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Qwant Jr. Search Test Done"
-echo "Total Test Done ( 196 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 
 # Search Sites Test
@@ -667,62 +940,85 @@ read x
 echo "Facebook Search Test"
 echo "-h"
 searchit -fb -h
-echo "Test Done ( 197 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -fb -help
-echo "Test Done ( 198 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -fb -?
-echo "Test Done ( 199 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -fb Facebook Default Search Test
-echo "Test Done ( 200 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -facebook Facebook Default Search Test II
-echo "Test Done ( 201 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -pst Facebook Post Search Test
-echo "Test Done ( 202 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -post Facebook Post Search Test II
-echo "Test Done ( 203 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -img Facebook Image Search Test
-echo "Test Done ( 204 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -image Facebook Image Search Test II
-echo "Test Done ( 205 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -vid Facebook Video Search Test
-echo "Test Done ( 206 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -video Facebook Video Search Test II
-echo "Test Done ( 207 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -pge Facebook Page Search Test
-echo "Test Done ( 208 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -page Facebook Page Search Test II
-echo "Test Done ( 209 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -plc Facebook Place Search Test
-echo "Test Done ( 210 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -place Facebook Place Search Test II
-echo "Test Done ( 211 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -grp Facebook Groups Search Test
-echo "Test Done ( 212 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -group Facebook Groups Search Test II
-echo "Test Done ( 213 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -app Facebook Apps Search Test
-echo "Test Done ( 214 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -apps Facebook Apps Search Test II
-echo "Test Done ( 215 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -evt Facebook Events Search Test
-echo "Test Done ( 216 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -event Facebook Events Search Test II
-echo "Test Done ( 217 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -lnk Facebook Links Search Test
-echo "Test Done ( 218 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -fb -link Facebook Links Search Test II
-echo "Test Done ( 219 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Facebook Search Test Done"
-echo "Total Test Done ( 219 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # twitter
 
@@ -731,50 +1027,67 @@ read x
 echo "Twitter Search Test"
 echo "-h"
 searchit -ttr -h
-echo "Test Done ( 220 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ttr -help
-echo "Test Done ( 221 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ttr -?
-echo "Test Done ( 222 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -ttr Twitter Default Search Test
-echo "Test Done ( 223 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -twitter Twitter Default Search Test II
-echo "Test Done ( 224 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -lst Twitter Latest Search Test
-echo "Test Done ( 225 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -latest Twitter Latest Search Test II
-echo "Test Done ( 256 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -ppl  Twitter People Search Test
-echo "Test Done ( 257 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -people Twitter People Search Test II
-echo "Test Done ( 258 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -img Twitter Image Search Test
-echo "Test Done ( 259 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -image Twitter Image Search Test II
-echo "Test Done ( 260 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -vid Twitter Video Search Test
-echo "Test Done ( 261 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -video Twitter Video Search Test II
-echo "Test Done ( 262 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -nws Twitter News Search Test 
-echo "Test Done ( 263 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -news Twitter News Search Test II
-echo "Test Done ( 264 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -brd Twitter Broadcast Search Test
-echo "Test Done ( 265 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ttr -broadcast Twitter Broadcast Search Test II
-echo "Test Done ( 266 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Twitter Search Test Done"
-echo "Total Test Done ( 266 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Reddit 
 
@@ -783,34 +1096,43 @@ read x
 echo "Reddit Search Test"
 echo "-h"
 searchit -rddt -h
-echo "Test Done ( 267 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -rddt -help
-echo "Test Done ( 268 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -rddt -?
-echo "Test Done ( 269 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -rddt Reddit Default Search Test
-echo "Test Done ( 270 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -reddit Reddit Default Search Test II
-echo "Test Done ( 271 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -rddt -pst Reddit Default Search Test
-echo "Test Done ( 272 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -rddt -post Reddit Default Search Test II
-echo "Test Done ( 273 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -rddt -usr Reddit Communities And Users Search Test
-echo "Test Done ( 274 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -rddt -user Reddit Communities And Users Search Test II
-echo "Test Done ( 275 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Reddit Search Test Done"
-echo "Total Test Done ( 275 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #Linkedin
 
@@ -819,58 +1141,79 @@ read x
 echo "Linkedin Search Test"
 echo "-h"
 searchit -linkedin -h
-echo "Test Done ( 276 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -linkedin -help
-echo "Test Done ( 277 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -linkedin -?
-echo "Test Done ( 278 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -lnkdn Linkedin Default Search Test
-echo "Test Done ( 279 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin Linkedin Default Search Test II
-echo "Test Done ( 280 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -ppl Linkedin People Search Test
-echo "Test Done ( 281 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -people Linkedin People Search Test II
-echo "Test Done ( 282 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -job Linkedin Jobs Search Test
-echo "Test Done ( 283 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -jobs Linkedin Jobs Search Test II
-echo "Test Done ( 284 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -cnt Linkedin Content Search Test
-echo "Test Done ( 285 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -content Linkedin Content Search Test II
-echo "Test Done ( 286 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -cpy Linkedin Company Search Test
-echo "Test Done ( 287 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -company Linkedin Company Search Test II
-echo "Test Done ( 288 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -scl Linkedin School Search Test
-echo "Test Done ( 289 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -school Linkedin School Search Test II
-echo "Test Done ( 290 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -grp Linkedin Group Search Test 
-echo "Test Done ( 291 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -group Linkedin Group Search Test II
-echo "Test Done ( 292 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -fnm Linkedin First Name Search Test
-echo "Test Done ( 293 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -firstname Linkedin First Name Search Test II
-echo "Test Done ( 294 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -lnm Linkedin Last Name Search Test
-echo "Test Done ( 295 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -linkedin -lastname Linkedin Last Name Search Test II
-echo "Test Done ( 296 / $totalTest )"
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Linkedin Search Test Done"
-echo "Total Test Done ( 296 / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Youtube
 
@@ -879,67 +1222,172 @@ read x
 echo "Youtube Search Test"
 echo "-h"
 searchit -ytb -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ytb -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ytb -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 seaechit -ytb Youtube Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -youtube Youtube Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -vid Youtube Videos Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -video Youtube Videos Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -cnl Youtube Chanel Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -channel Youtube Channel Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -plt Youtube Channel Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -playlist Youtube Channel Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -mve Youtube Movie Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -movie Youtube Movie Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -shw Youtube Show Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -show Youtube Show Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -srt Youtube Short Video Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -short Youtube Short Video Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -lng Youtube Long Video Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -long Youtube Long Video Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -hur Youtube Last Hour Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -hour Youtube Last Hour Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -tdy Youtube Today Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -today Youtube Today Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -wek Youtube Today Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -week Youtube Today Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -mth Youtube Month Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -month Youtube Month Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -yar Youtube Year Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -year Youtube Year Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -lve Youtube Live Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -live Youtube Live Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -4k Youtube 4k Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -hd Youtube HD Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -cc Youtube Caption Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -caption Youtube Caption Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -cmn Youtube Creative Common Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -common Youtube Creative Common Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -360 Youtube 360 Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -180 Youtube VR180 Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -vr180 Youtube VR180 Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -3d Youtube 3D Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -hdr Youtube HDR Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -lcn Youtube Location Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -location Youtube Location Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -prc Youtube Purchase Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -purchase Youtube Purchase Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -dte Youtube Short By Date Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -date Youtube Short By Date Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -vws Youtube Short By Views Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -views Youtube Short By Views Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -rte Youtube Short By Rate Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -rate Youtube Short By Rate Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "YouTube Search Test Done"
+echo "Total Test Done ( $test Done / $totalTest )"
 
 #pinterest
 
@@ -948,28 +1396,55 @@ read x
 echo "Pinterest Search Test"
 echo "-h"
 searchit -pntr -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -pntr -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -pntr -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -pntr Pinterest Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pinterest Pinterest Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -my Pinterest Mypin Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -mypin Pinterest Mypin Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -pdt Pinterest Product Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -product Pinterest Product Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -ppl Pinterest Peoeple Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -people Pinterest People Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -brd Pinterst Boards Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -board Pinterest Board Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Pinterest Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Tumblr
 
@@ -978,20 +1453,31 @@ read x
 echo "Tumblr Search Test"
 echo "-h"
 searchit -tmblr -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -tmblr -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -tmblr -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -tmblr Tumblr Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -tumblr Tumbler Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Tumbler Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #Quora
 
@@ -1000,34 +1486,73 @@ read x
 echo "Quora Search Test"
 echo "-h"
 searchit -qra -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -qra -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -qra -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -qra Quora Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -quora Quora Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -qsn Quora Question Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -question Quora Question Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -ans Quora Answer Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -answear Quora Answer Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -pst Quora Post Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -post Quora Post Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -pfl Quora Profile Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -profile Quora Profie Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -tpc Quora Topic Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -topic Quora Topic Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -blg Quora Blog Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -blog Quora Blog Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -spc Quora Spaces Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -space Quora Spaces Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Quora Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # wikipedia
 
@@ -1036,18 +1561,28 @@ read x
 echo "Wikipedia Search Test"
 echo "-h"
 searchit -wiki -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -wiki -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -wiki -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -wiki Wikipedia Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -wikipedia Wikipedia Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "wikipedia Search Test Done"
 
@@ -1058,28 +1593,55 @@ read x
 echo "StackOverFlow Search Test"
 echo "-h"
 searchit -stkof -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -stkof -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -stkof -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -stkof StackOverFlow Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stackoverflow Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -new StackOverFlow Newst Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -newest StackOverFlow Newest Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -act StackOverFlow Active Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -active StackOverFlow Active Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -vot StackOverFlow Vote Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -votes StackOverFlow Vote Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -job StackOverFlow Job Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -jobs StackOverFlow Job Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "StackOverFlow Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Gitlab
 
@@ -1088,28 +1650,55 @@ read x
 echo "Gitlab Search Test"
 echo "-h"
 searchit -gtlb -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -gtlb -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -gtlb -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -gtlb Gitlab Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gitlab Gitlab Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -isu Gitlab Issue Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -issue Gitlab Issue Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -mrg Gitlab Merge Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -merge Gitlab Merge Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -stn Gitlab Milestone Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -milestone Gitlab Milestone Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -usr Gitlab User Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gtlb -user Gitlab User Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Gitlab Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Github
 
@@ -1118,38 +1707,85 @@ read x
 echo "Github Search Test"
 echo "-h"
 searchit -gthb -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -gthb -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -gthb -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -gthb Github Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -github Github Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -isu Github Issue Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -issue Github Issue Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -cde Github Code Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -code Github Code Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -cmt Github Commits Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -commit Github Commits Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -usr Github User Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -user Github User Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -rep Github Repository Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -repository Github Repository Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -pac Github Package Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -package Github Package Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -mkt Github Marketplace Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -market Github Marketplace Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -tpc Github Topic Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -topic Github Topic Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -wki Github Wiki Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -gthb -wiki Github Wiki Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Github Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Amazon
 
@@ -1158,80 +1794,211 @@ read x
 echo "Amazon Search Test"
 echo "-h"
 searchit -amzn -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -amzn -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -amzn -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -amzn Amazon Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 serachit -amazon Amazon Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -art Amazon Arts And Crafts Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -craft Amazon Arts And Crafts Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -auto Amazon Automotive Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -automotive Amazon Automotive Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -bby Amazon Baby Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -baby Amazon Baby Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -bty Amazon Beauty And Personal Care Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -beauty Amazon Beauty And Personal Care Search Test  II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -personal Amazon Beauty And Personal Care Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -bks Amazon Book Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -book Amazon Book Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -com Amazon Computers Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -computer Amazon Computers Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -dmc Amazon Digital Music Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -digitalmuric Amazon Digital Music Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -elc Amazon Electronics Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -electronics Amazon Electronics Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -kdl Amazon Kindle Store Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -kindle Amazon Kindle Store Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -pvd Amazon Prime Video Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -primevideo Amazon Prime Video Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -wmn Amazon Womens Fasion Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -women Amazon Womens Fasion Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -men Amazon Men Fasion Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -man Amazon Men Fasion Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -glr Amazon Girls Fasion Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -girl Amazon Girls Fasion Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -boy Amazon Boys Fasion Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -boys Amazon Boys Fasion Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -dls Amazon Deals Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -deal Amazon Deals Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 sseachit -amzn -hlt Amazon Health And Houshols Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -health Amazon Health Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -houshold Amazon Health And Houshold Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -hme Amazon Home And Kitchen Seach Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -home Amazon Home And Kitchen Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -kitchen Amazon Home And Kitchen Searc Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -ids Amazon Industrial And Scientific Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -industrial Amazon Industrial And Scientific Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -sci Amazon Industrial And Scientific Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -science Amazon Industrial And Scientific Search Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -lge Amazon Luggage Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -luggage Amazon Luggage Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -mvi Amazon Movie And Tv Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -movie Amazon Movie And Tv Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -tv Amazon Movie And Tv Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -msc Amazon Music Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -music Amazon Music Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -pet Amazon Pet Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -petsupply Amazon Pet Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -sft Amzon Software Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -softwae Amazon software Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -spt Amazon Sport Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -sport Amazon Sport Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -tls Amazon Tools And House Improvment Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -tool Amazon Tool And House Improvment Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -toy Amazon Toy Search Test 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -toys Amazon Toy Searc Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -gme Amazon  Games Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -game Amazon Game Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "Amazon Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 # Ebay
 
@@ -1240,100 +2007,277 @@ read x
 echo "Ebay Search Test"
 echo "-h"
 searchit -eby -h
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -eby -help
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -eby -?
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 read x
 clear
 searchit -eby Ebay Default Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -ebay Ebay Default Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -atq Ebay Antique Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -antique Ebay Antique Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -art Ebay Art Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -bby Ebay Baby Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -baby Ebay Baby Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -bks Ebay Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -book Ebay Books Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -bsn Ebay Business And Industrial Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -business Ebay Business And Industrial Search Test II 
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -ids Ebay Business And Industrial Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -industrial Ebay Business And Industrial Search Test VI
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -cmr Ebay Camera And Photo Accesories Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -camera Ebay Camera And Photo Accesories Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -pht Ebay Camera And Photo Accesories Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -photo Ebay Camera And Photo Accesories Search Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -clt Ebay Clothes, Shoes And Accesories Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -clothe Ebay Clothes, Shoes And Accesories Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -sho Ebay Clothes, Shoes And Accesories Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -shoe Ebay Clothes, Shoes And Accesories Search Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -cin Ebay Coin And Paper Money Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -coin Ebay Coin And Paper Money Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -mny Ebay Coin And Paper Money Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -money Ebay Coin And Paper Money Seach Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -clt Ebay Collecttbles Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -collectibles Ebay Collecttbles Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -com Ebay Computer Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -computer Ebay Computer Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -elc Ebay Electronics Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -electronic Ebay Electronics Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -cft Ebay Crafts Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -craft Ebay Crafts Searc Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -dll Ebay Dolls And Bears Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -doll Ebay Dolls And Bears Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -ber Ebay Dolls And Bears Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -bear Ebay Dolls And Bears Search Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -mve Ebay DVDs And Movies Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -movie Ebay DVDs And Movies Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -dvd Ebay DVDs And Movies Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -mtr Ebay Motos Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -motor Ebay Motors Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -ent Ebay Enterteinment Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -enterteinment Ebay Enterteinment Searh Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -evy Ebay Everything Serch Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -everything Ebay Everything Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -cpn Ebay Gifts And Coupns Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -coupon Ebay Gifts And Coupons Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -bty Ebay Health And Beauty Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -beauty Ebay Health And Beauty Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -hlt Ebay Health And Beauty Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -health Ebay Health and Beauty Search Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -hme Ebay Home And Garden Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -home Ebay Home And Garden Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -grd Ebay Home And Garden Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -garden Ebay Home And Garden Search Test IV
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -jwl Ebay Jewelry And Warches Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -jewelry Ebay Jewelry And Watches Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -msc Ebay Music Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -music Ebay Music Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -ins Ebay Musical Instrument Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -instrument Ebay Musical Instrument Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -pet Ebay Pet Supplies Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -petsupply Ebay Pet Supplies Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -pot Ebay Pottery And Glass Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -pottery Ebay Pottery And Glass Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -rst Ebay Real State Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -realstate Ebay Real State Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -svc Ebat Special Service Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -service Ebay Spacial Service Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -sgd Ebay Sporting Good Service Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -sportinggood Ebay Sporting Good Service Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -spt Ebay Sports Seach Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -sport Ebay Sports Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -stm Ebay Stamp Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -stamp Ebay Stamp Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -tkt Ebay Tickets And Experiance Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -ticket Ebay Tickets And Experiance Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -hby Ebay Toys And Hobbies Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -hobby Ebay Toys And Hobbies Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -toy Ebay Toys And Hobbies Search Test III
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -tvl Ebay Travel Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -travel Ebay Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -gme Ebay Video Games Search Test
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -game Ebay Video Games Search Test II
+((testDone++))
+echo "Test Done ( $testDone / $totalTest )"
 clear
 echo " Ebay Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
