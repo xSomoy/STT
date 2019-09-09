@@ -2,8 +2,8 @@
 
 # Copyright © 2019 Searchit ( Mushphyqur Rahman Tanveer )
 
-version=3.beta0
-totalTest=562
+version=3.0.0
+totalTest=598
 testDone=0
 
 
@@ -119,6 +119,8 @@ echo "Total Test Done ( $testDone / $totalTest )"
 
 #                        Default Search Test
 
+echo " Start Default Search Test? ('Ctrl+C' to cancel)"
+read x
 echo " Default Search Test"
 searchit Default Search
 ((testDone++))
@@ -258,7 +260,7 @@ echo "Test Done ( $testDone  / $totalTest )"
 googleit -fnc Googleit Finance Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-googleit -finance google Finance Search II
+googleit -finance Googleit Finance Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
 googleit -map Googleit Map Search
@@ -1466,7 +1468,7 @@ searchit -ytb -rate Youtube Short By Rate Search Test II
 echo "Test Done ( $testDone / $totalTest )"
 clear
 echo "YouTube Search Test Done"
-echo "Total Test Done ( $test Done / $totalTest )"
+echo "Total Test Done ( $testDone / $totalTest )"
 
 #pinterest
 

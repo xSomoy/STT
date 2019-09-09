@@ -1,19 +1,18 @@
 # Searchit Tester
-Version: 2.3.1
-[Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository") Compatible Version: 1.0-rc.1
+Version: 3.0.0
+[Searchit Terminal](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository") Compatible Version: 2.4.0
 
 ---
 
-I made a software to do a stuff as easy as possible. and you expect me to test it manually?
+I made a software to do a stuff as easy as possible. and you expect me to test it One By One?
 > Huh!! I'm too lazy for that.
 
-I have written a script to test [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository").
-This script will run all the commands available for [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository") tool and you have to **visually** confirm that every command are working properly. *THAT'S IT.*
+I have written a script to test Searchit Terminal
+This script will run all the commands available for [Searchit](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository") tool and you have to **visually** confirm that every command are working properly. *THAT'S IT.*
 
 * Make Sure;
     * You Already Installed [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository")
-    * You Already Installed [xdotool](https://github.com/jordansissel/xdotool "xodotool Repository").This Script Needs [xdotool](https://github.com/jordansissel/xdotool "xodotool Repository") To Mimic Physical Keyboard Input.
-    * Your Tester Version Is Compatible With Your Searchit Version. Check [Releases](https://github.com/xCommunicado/Searchit_Tester/releases "Releases") For Verify Version Compatibility.
+    * Your Tester Version Is Compatible With Your Searchit Version. Check [Releases](https://github.com/xSomoy/STT/releases "Releases") For Verify Version Compatibility.
 
 
 * Instruction For Dummies
@@ -22,13 +21,13 @@ This script will run all the commands available for [Searchit](https://github.co
     * Type This Commands One By One.
 
     ```Bash
-    chmod +x Searchit_Tester.sh
-    ./Searchit_Tester.sh
+    chmod +x manulaTest.sh
+    ./manualTest.sh
     ```
-    * All Available Commands For  [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repositor") Will Run Automatically One By One.
-    * Visually Confirm All Commands Are Working Properly
-    * If You Found Any Problem. Create A  [Issue](https://github.com/xCommunicado/Searchit/issues "Searchit Issues") On [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repositor")'s Repository.
+    * All Available Commands For  [Searchit](https://github.com/SearchitOfficial/SearchTerminal "Searchit Repositor") Will Run Automatically One By One.
+    * Visually Confirm All Commands Are Working Properly. Then Hit Ctrl+W to quit a Browser tab and start another test.
+    * If You Found Any Problem. Create A  [Issue](https://github.com/SearchitOfficial/SearchitTerminal/issues "Searchit Issues") On [Searchit](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repositor")'s Repository.
 
-For Any Other Necessary Feel Free To Contact Me Via [Twitter](https://www.twitter.com/xCommunicado "My Twitter Account").
+For Any Other Necessary Feel Free To Contact Me Via [Twitter](https://www.twitter.com/xSomoy "My Twitter Account").
 
 ### Thank You !!
