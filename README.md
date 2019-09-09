@@ -11,7 +11,8 @@ I have written a script to test Searchit Terminal
 This script will run all the commands available for [Searchit](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository") tool and you have to **visually** confirm that every command are working properly. *THAT'S IT.*
 
 * Make Sure;
-    * You Already Installed [Searchit](https://github.com/xCommunicado/Searchit "Searchit Repository")
+    * You Already Installed [Searchit](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository")
+    * Your Version Of [Searchit](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository") Is Up-To-Date
     * Your Tester Version Is Compatible With Your Searchit Version. Check [Releases](https://github.com/xSomoy/STT/releases "Releases") For Verify Version Compatibility.
 
 
