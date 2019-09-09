@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
+
+# Copyright © 2019 Searchit ( Mushphyqur Rahman Tanveer )
+
+version=3.beta0
 totalTest=562
 testDone=0
-#Searchit Options Check
+
+
+#                       Searchit Options Check
+
 echo "Start Searchit Options Check? ('Ctrl+C' to cancel)"
 read x
 echo "--about"
@@ -110,7 +117,7 @@ echo " Searchit Default Search Test Done "
 echo "Total Test Done ( $testDone / $totalTest )"
 
 
-# Default Search Test
+#                        Default Search Test
 
 echo " Default Search Test"
 searchit Default Search
@@ -118,7 +125,8 @@ searchit Default Search
 echo "Test Done ( $testDone  / $totalTest )"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-# Duckit Search Test
+
+#                       Duckit Search Test
 
 echo "Start Duckit Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -193,11 +201,83 @@ clear
 echo "Duckit Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-#  Search Engine Test
+
+#                        Googleit
+
+echo "Start Googleit Search Test? ('Ctrl+C' to cancel)"
+read x
+echo "Googleit Search Test"
+echo "-h"
+googleit -h
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+read x
+clear
+echo "-help"
+googleit -help
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+read x
+clear
+echo "-?"
+googleit -?
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+read x
+clear
+googleit Default Googleit Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+searchit -google Default Googleit Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -img Googleit Image Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -image Googleit Image Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -vid Googleit Video Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -video Googleit Video Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -nws Gooogle News Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -news Googleit News Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -bks Googleit Book Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -books Googleit Book Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -fnc Googleit Finance Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -finance google Finance Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -map Googleit Map Search
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+googleit -maps Googleit Map Search II
+((testDone++))
+echo "Test Done ( $testDone  / $totalTest )"
+clear
+echo "Googleit Search Test Done"
+echo "Total Test Done ( $testDone / $totalTest )"
+
+
+#                           Search Engine Test
 
 echo "Default Search Engines Test"
 
-#Duckduckgo 
+
+# Duckduckgo 
 
 echo "Start DuckDuckGo Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -272,8 +352,7 @@ clear
 echo "DuckDuckGo Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-
-#Google 
+# Google 
 
 echo "Start Google Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -582,7 +661,7 @@ clear
 echo "Baidu Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-#StartPage
+# StartPage
 
 echo "Start StarPage Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -627,7 +706,7 @@ clear
 echo "StarPage Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-#SearX
+# SearX
 
 echo "Start SearX Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -711,7 +790,7 @@ clear
 echo "SearX Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-# shodan
+# Shodan
 
 echo "Start Shodan Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -750,7 +829,7 @@ clear
 echo "Shodan Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-#qwant
+# Qwant
 
 echo "Start Qwant Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -861,7 +940,7 @@ clear
 echo "Qwant Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-#qwantjunior
+# Qwant Junior
 
 echo "Start Qwant Jr. Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -931,9 +1010,9 @@ echo "Qwant Jr. Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
 
-# Search Sites Test
+#                               Search Sites Test
 
-# facebook
+# Facebook
 
 echo "Start Facebook Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -1020,7 +1099,7 @@ clear
 echo "Facebook Search Test Done"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-# twitter
+# Twitter
 
 echo "Start Twitter Search Test? ('Ctrl+C' to cancel)"
 read x
