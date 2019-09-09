@@ -532,46 +532,78 @@ read x
 echo "Qwant Search Test"
 echo "-h"
 searchit -qwnt -h
+echo "Test Done ( 149 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -qwnt -help
+echo "Test Done ( 150 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -qwnt -?
+echo "Test Done ( 151 / $totalTest )"
 read x
 clear
 searchit -qwnt Default Qwant Search
+echo "Test Done ( 152 / $totalTest )"
 searchit -qwant Default Qwant Search II
+echo "Test Done ( 153 / $totalTest )"
 searchit -qwnt -img Qwant Image Search
+echo "Test Done ( 154 / $totalTest )"
 searchit -qwnt -image Qwant Image Search II
+echo "Test Done ( 155 / $totalTest )"
 searchit -qwnt -vid Qwant Video Search
+echo "Test Done ( 156 / $totalTest )"
 searchit -qwnt -video Qwant Video Search II
+echo "Test Done ( 157 / $totalTest )"
 searchit -qwnt -nws Qwant News Search
+echo "Test Done ( 158 / $totalTest )"
 searchit -qwnt -news Qwant News Search II
+echo "Test Done ( 159 / $totalTest )"
 searchit -qwnt -map Qwant Map Search
+echo "Test Done ( 160 / $totalTest )"
 searchit -qwnt -maps Qwant Map Search II
+echo "Test Done ( 161 / $totalTest )"
 searchit -qwnt -msc Qwant Music Search
+echo "Test Done ( 162 / $totalTest )"
 searchit -qwnt -music Qwant Music Search II
+echo "Test Done ( 163 / $totalTest )"
 searchit -qwnt -spg Qwant Shopping Search
+echo "Test Done ( 164 / $totalTest )"
 searchit -qwnt -shopping Qwant Shopping Search II
+echo "Test Done ( 165 / $totalTest )"
 searchit -qwnt -abm Qwant Album Search
+echo "Test Done ( 166 / $totalTest )"
 searchit -qwnt -album Qwant Album Search II
+echo "Test Done ( 167 / $totalTest )"
 searchit -qwnt -art Qwant Artist Search
+echo "Test Done ( 168 / $totalTest )"
 searchit -qwnt -artist Qwant Artist Search II
+echo "Test Done ( 169 / $totalTest )"
 searchit -qwnt -sng Qwant Songs Search
+echo "Test Done ( 170 / $totalTest )"
 searchit -qwnt -song Qwant Songs Search II
+echo "Test Done ( 171 / $totalTest )"
 searchit -qwnt -scl Qwant Social Media Search
+echo "Test Done ( 172 / $totalTest )"
 searchit -qwnt -social Qwant Social Media Search II
+echo "Test Done ( 173 / $totalTest )"
 searchit -qwnt -cas Qwant Causes Search
+echo "Test Done ( 174 / $totalTest )"
 searchit -qwnt -cause Qwant Causes Search II
+echo "Test Done ( 175 / $totalTest )"
 searchit -qwnt -cvw Qwant Causes Overview Search
+echo "Test Done ( 176 / $totalTest )"
 searchit -qwnt -causesoverview Qwant Causes Overview Search II
+echo "Test Done ( 177 / $totalTest )"
 searchit -qwnt -asn Qwant Asssocian Search
+echo "Test Done ( 178 / $totalTest )"
 searchit -qwnt -asssocian Qwant Asssocian Search II
+echo "Test Done ( 179 / $totalTest )"
 clear
 echo "Qwant Search Test Done"
+echo "Total Test Done ( 179 / $totalTest )"
 
 #qwantjunior
 
@@ -580,32 +612,50 @@ read x
 echo "Qwant Jr. Search Test"
 echo "-h"
 searchit -qwntjr -h
+echo "Test Done ( 180 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -qwntjr -help
+echo "Test Done ( 181 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -qwntjr -?
+echo "Test Done ( 182 / $totalTest )"
 read x
 clear
 searchit -qwntjr Default Qwant Jr. Search
+echo "Test Done ( 183 / $totalTest )"
 searchit -qwantjunior Default Qwant Jr. Search II
+echo "Test Done ( 184 / $totalTest )"
 searchit -qwntjr -img Qwant Jr. Image Search
+echo "Test Done ( 185 / $totalTest )"
 searchit -qwntjr -image Qwant Jr. Image Search II
+echo "Test Done ( 186 / $totalTest )"
 searchit -qwntjr -vid Qwant Jr. Video Search
+echo "Test Done ( 187 / $totalTest )"
 searchit -qwntjr -video Qwant Jr. Video Search II
+echo "Test Done ( 188 / $totalTest )"
 searchit -qwntjr -nws Qwant Jr. News Search
+echo "Test Done ( 189 / $totalTest )"
 searchit -qwntjr -news Qwant Jr. News Search II
+echo "Test Done ( 190 / $totalTest )"
 searchit -qwntjr -edu Qwant Jr. Education Search
+echo "Test Done ( 191 / $totalTest )"
 searchit -qwntjr -education Qwant Jr. Education Search II
+echo "Test Done ( 192 / $totalTest )"
 searchit -qwntjr -nte Qwant Jr. Notes Search
+echo "Test Done ( 193 / $totalTest )"
 searchit -qwntjr -note Qwant Jr. Notes Search II
+echo "Test Done ( 194 / $totalTest )"
 searchit -qwntjr -brd Qwant Jr. Boards Search
+echo "Test Done ( 195 / $totalTest )"
 searchit -qwntjr -board Qwant Jr. Boards Search II
+echo "Test Done ( 196 / $totalTest )"
 clear
 echo "Qwant Jr. Search Test Done"
+echo "Total Test Done ( 196 / $totalTest )"
 
 
 # Search Sites Test
@@ -617,38 +667,62 @@ read x
 echo "Facebook Search Test"
 echo "-h"
 searchit -fb -h
+echo "Test Done ( 197 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -fb -help
+echo "Test Done ( 198 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -fb -?
+echo "Test Done ( 199 / $totalTest )"
 read x
 clear
 searchit -fb Facebook Default Search Test
+echo "Test Done ( 200 / $totalTest )"
 searchit -facebook Facebook Default Search Test II
+echo "Test Done ( 201 / $totalTest )"
 searchit -fb -pst Facebook Post Search Test
+echo "Test Done ( 202 / $totalTest )"
 searchit -fb -post Facebook Post Search Test II
+echo "Test Done ( 203 / $totalTest )"
 searchit -fb -img Facebook Image Search Test
+echo "Test Done ( 204 / $totalTest )"
 searchit -fb -image Facebook Image Search Test II
+echo "Test Done ( 205 / $totalTest )"
 searchit -fb -vid Facebook Video Search Test
+echo "Test Done ( 206 / $totalTest )"
 searchit -fb -video Facebook Video Search Test II
+echo "Test Done ( 207 / $totalTest )"
 searchit -fb -pge Facebook Page Search Test
+echo "Test Done ( 208 / $totalTest )"
 searchit -fb -page Facebook Page Search Test II
+echo "Test Done ( 209 / $totalTest )"
 searchit -fb -plc Facebook Place Search Test
+echo "Test Done ( 210 / $totalTest )"
 searchit -fb -place Facebook Place Search Test II
+echo "Test Done ( 211 / $totalTest )"
 searchit -fb -grp Facebook Groups Search Test
+echo "Test Done ( 212 / $totalTest )"
 searchit -fb -group Facebook Groups Search Test II
+echo "Test Done ( 213 / $totalTest )"
 searchit -fb -app Facebook Apps Search Test
+echo "Test Done ( 214 / $totalTest )"
 searchit -fb -apps Facebook Apps Search Test II
+echo "Test Done ( 215 / $totalTest )"
 searchit -fb -evt Facebook Events Search Test
+echo "Test Done ( 216 / $totalTest )"
 searchit -fb -event Facebook Events Search Test II
+echo "Test Done ( 217 / $totalTest )"
 searchit -fb -lnk Facebook Links Search Test
+echo "Test Done ( 218 / $totalTest )"
 searchit -fb -link Facebook Links Search Test II
+echo "Test Done ( 219 / $totalTest )"
 clear
 echo "Facebook Search Test Done"
+echo "Total Test Done ( 219 / $totalTest )"
 
 # twitter
 
@@ -657,32 +731,50 @@ read x
 echo "Twitter Search Test"
 echo "-h"
 searchit -ttr -h
+echo "Test Done ( 220 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -ttr -help
+echo "Test Done ( 221 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -ttr -?
+echo "Test Done ( 222 / $totalTest )"
 read x
 clear
 searchit -ttr Twitter Default Search Test
+echo "Test Done ( 223 / $totalTest )"
 searchit -twitter Twitter Default Search Test II
+echo "Test Done ( 224 / $totalTest )"
 searchit -ttr -lst Twitter Latest Search Test
+echo "Test Done ( 225 / $totalTest )"
 searchit -ttr -latest Twitter Latest Search Test II
+echo "Test Done ( 256 / $totalTest )"
 searchit -ttr -ppl  Twitter People Search Test
+echo "Test Done ( 257 / $totalTest )"
 searchit -ttr -people Twitter People Search Test II
+echo "Test Done ( 258 / $totalTest )"
 searchit -ttr -img Twitter Image Search Test
+echo "Test Done ( 259 / $totalTest )"
 searchit -ttr -image Twitter Image Search Test II
+echo "Test Done ( 260 / $totalTest )"
 searchit -ttr -vid Twitter Video Search Test
+echo "Test Done ( 261 / $totalTest )"
 searchit -ttr -video Twitter Video Search Test II
+echo "Test Done ( 262 / $totalTest )"
 searchit -ttr -nws Twitter News Search Test 
+echo "Test Done ( 263 / $totalTest )"
 searchit -ttr -news Twitter News Search Test II
+echo "Test Done ( 264 / $totalTest )"
 searchit -ttr -brd Twitter Broadcast Search Test
+echo "Test Done ( 265 / $totalTest )"
 searchit -ttr -broadcast Twitter Broadcast Search Test II
+echo "Test Done ( 266 / $totalTest )"
 clear
 echo "Twitter Search Test Done"
+echo "Total Test Done ( 266 / $totalTest )"
 
 # Reddit 
 
@@ -691,24 +783,34 @@ read x
 echo "Reddit Search Test"
 echo "-h"
 searchit -rddt -h
+echo "Test Done ( 267 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -rddt -help
+echo "Test Done ( 268 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -rddt -?
+echo "Test Done ( 269 / $totalTest )"
 read x
 clear
 searchit -rddt Reddit Default Search Test
+echo "Test Done ( 270 / $totalTest )"
 searchit -reddit Reddit Default Search Test II
+echo "Test Done ( 271 / $totalTest )"
 searchit -rddt -pst Reddit Default Search Test
+echo "Test Done ( 272 / $totalTest )"
 searchit -rddt -post Reddit Default Search Test II
+echo "Test Done ( 273 / $totalTest )"
 searchit -rddt -usr Reddit Communities And Users Search Test
+echo "Test Done ( 274 / $totalTest )"
 searchit -rddt -user Reddit Communities And Users Search Test II
+echo "Test Done ( 275 / $totalTest )"
 clear
 echo "Reddit Search Test Done"
+echo "Total Test Done ( 275 / $totalTest )"
 
 #Linkedin
 
@@ -717,36 +819,58 @@ read x
 echo "Linkedin Search Test"
 echo "-h"
 searchit -linkedin -h
+echo "Test Done ( 276 / $totalTest )"
 read x
 clear
 echo "-help"
 searchit -linkedin -help
+echo "Test Done ( 277 / $totalTest )"
 read x
 clear
 echo "-?"
 searchit -linkedin -?
+echo "Test Done ( 278 / $totalTest )"
 read x
 clear
 searchit -lnkdn Linkedin Default Search Test
+echo "Test Done ( 279 / $totalTest )"
 searchit -linkedin Linkedin Default Search Test II
+echo "Test Done ( 280 / $totalTest )"
 searchit -linkedin -ppl Linkedin People Search Test
+echo "Test Done ( 281 / $totalTest )"
 searchit -linkedin -people Linkedin People Search Test II
+echo "Test Done ( 282 / $totalTest )"
 searchit -linkedin -job Linkedin Jobs Search Test
+echo "Test Done ( 283 / $totalTest )"
 searchit -linkedin -jobs Linkedin Jobs Search Test II
+echo "Test Done ( 284 / $totalTest )"
 searchit -linkedin -cnt Linkedin Content Search Test
+echo "Test Done ( 285 / $totalTest )"
 searchit -linkedin -content Linkedin Content Search Test II
+echo "Test Done ( 286 / $totalTest )"
 searchit -linkedin -cpy Linkedin Company Search Test
+echo "Test Done ( 287 / $totalTest )"
 searchit -linkedin -company Linkedin Company Search Test II
+echo "Test Done ( 288 / $totalTest )"
 searchit -linkedin -scl Linkedin School Search Test
+echo "Test Done ( 289 / $totalTest )"
 searchit -linkedin -school Linkedin School Search Test II
+echo "Test Done ( 290 / $totalTest )"
 searchit -linkedin -grp Linkedin Group Search Test 
+echo "Test Done ( 291 / $totalTest )"
 searchit -linkedin -group Linkedin Group Search Test II
+echo "Test Done ( 292 / $totalTest )"
 searchit -linkedin -fnm Linkedin First Name Search Test
+echo "Test Done ( 293 / $totalTest )"
 searchit -linkedin -firstname Linkedin First Name Search Test II
+echo "Test Done ( 294 / $totalTest )"
 searchit -linkedin -lnm Linkedin Last Name Search Test
+echo "Test Done ( 295 / $totalTest )"
 searchit -linkedin -lastname Linkedin Last Name Search Test II
-ckear
+echo "Test Done ( 296 / $totalTest )"
+clear
 echo "Linkedin Search Test Done"
+echo "Total Test Done ( 296 / $totalTest )"
 
 # Youtube
 
