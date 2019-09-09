@@ -118,7 +118,7 @@ searchit Default Search
 echo "Test Done ( $testDone  / $totalTest )"
 echo "Total Test Done ( $testDone / $totalTest )"
 
-# Duck Search Test
+# Duckit Search Test
 
 echo "Start Duckit Search Test? ('Ctrl+C' to cancel)"
 read x
@@ -141,52 +141,52 @@ duckit -?
 echo "Test Done ( $testDone  / $totalTest )"
 read x
 clear
-duckit Default Duckduckgo Search
+duckit Default Duckit Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-searchit -duckduckgo Default Duckduckgo Search II
+duckit Default Duckit Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -img Duckduckgo Image Search
+duckit -img Duckit Image Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -image Duckduckgo Image Search II
+duckit -image Duckit Image Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -vid Duckduckgo Video Search
+duckit -vid Duckit Video Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -video Duckduckgo Video Search II
+duckit -video Duckit Video Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -nws Duckduckgo News Search
+duckit -nws Duckit News Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -news DuckDuckGo News Search II
+duckit -news Duckit News Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -mns Duckduckgo meanings search
+duckit -mns Duckit meanings search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -meanings DuckDuckGo meanings search II
+duckit -meanings Duckit meanings search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -ans DuckDuckGo Answer Search
+duckit -ans Duckit Answer Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -answer DuckDuckGo answer search II
+duckit -answer Duckit answer search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -ntr DuckDuckGo Nutrition Search 
+duckit -ntr Duckit Nutrition Search 
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -nutrition DuckDuckGo Nutrition Search II
+duckit -nutrition Duckit Nutrition Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -rcp DuckDuckGo recipes search
+duckit -rcp Duckit recipes search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-duckit -recipes DuckDuckGo recipes Search II
+duckit -recipes Duckit recipes Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
 clear
