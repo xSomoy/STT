@@ -2,7 +2,7 @@
 
 # Copyright © 2019 Searchit ( Mushphyqur Rahman Tanveer )
 
-version=3.0.0
+version=3.0.1
 totalTest=598
 testDone=0
 
