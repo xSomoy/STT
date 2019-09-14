@@ -1,6 +1,6 @@
 # Searchit Tester
-Version: 3.0.0
-[Searchit Terminal](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository") Compatible Version: 2.4.0
+Version: 3.0.1
+[Searchit Terminal](https://github.com/SearchitOfficial/SearchitTerminal "Searchit Repository") Compatible Version: 2.7.0
 
 ---
 
