@@ -521,10 +521,10 @@ echo "Test Done ( $testDone  / $totalTest )"
 searchit -bng -news Bing News Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-searchit -bng -nws Bing Map Search
+searchit -bng -map Bing Map Search
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
-searchit -bng -news Bing Map Search II
+searchit -bng -maps Bing Map Search II
 ((testDone++))
 echo "Test Done ( $testDone  / $totalTest )"
 clear
@@ -578,10 +578,10 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -ydx -news Yandex News Search II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -ydx -nws Yandex Map Search
+searchit -ydx -map Yandex Map Search
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -ydx -news Yandex Map Search II
+searchit -ydx -maps Yandex Map Search II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 clear
@@ -935,7 +935,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -asn Qwant Asssocian Search
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -qwnt -asssotion Qwant Asssocian Search II
+searchit -qwnt -associations Qwant Asssocian Search II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 clear
@@ -1379,10 +1379,10 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -today Youtube Today Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -ytb -wek Youtube Today Search Test 
+searchit -ytb -wek Youtube Week Search Test 
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -ytb -week Youtube Today Search Test II
+searchit -ytb -week Youtube Week Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -ytb -mth Youtube Month Search Test 
@@ -1939,7 +1939,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -dmc Amazon Digital Music Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -amzn -digitalmuric Amazon Digital Music Search Test II
+searchit -amzn -digitalmusic Amazon Digital Music Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -elc Amazon Electronics Search Test
@@ -1972,7 +1972,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -man Amazon Men Fasion Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -amzn -glr Amazon Girls Fasion Search Test
+searchit -amzn -grl Amazon Girls Fasion Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -girl Amazon Girls Fasion Search Test II
@@ -2050,7 +2050,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -sft Amzon Software Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -amzn -softwae Amazon software Search Test II
+searchit -amzn -software Amazon software Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -amzn -spt Amazon Sport Search Test
@@ -2179,10 +2179,10 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -money Ebay Coin And Paper Money Seach Test IV
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -clt Ebay Collecttbles Search Test
+searchit -eby -clt Ebay Collectibles Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -collectibles Ebay Collecttbles Search Test II
+searchit -eby -collectibles Ebay Collectibles Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -com Ebay Computer Search Test
@@ -2233,7 +2233,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -ent Ebay Enterteinment Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -enterteinment Ebay Enterteinment Searh Test II
+searchit -eby -entertainment Ebay Entertainment Searh Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -evy Ebay Everything Serch Test
