@@ -935,7 +935,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -asn Qwant Asssocian Search
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -qwnt -associations Qwant Asssocian Search II
+searchit -qwnt -association Qwant Asssocian Search II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 clear
@@ -1520,7 +1520,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -brd Pinterst Boards Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -pntr -board Pinterest Board Search Test II
+
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 clear
@@ -1598,7 +1598,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -ans Quora Answer Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -qra -answear Quora Answer Search Test II
+searchit -qra -answer Quora Answer Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -pst Quora Post Search Test
@@ -1711,7 +1711,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -vot StackOverFlow Vote Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -stkof -votes StackOverFlow Vote Search Test II
+searchit -stkof -vote StackOverFlow Vote Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -job StackOverFlow Job Search Test
@@ -2125,7 +2125,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -baby Ebay Baby Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -bks Ebay Search Test
+searchit -eby -bks Ebay Books Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -book Ebay Books Search Test II
@@ -2236,7 +2236,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -entertainment Ebay Entertainment Searh Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -evy Ebay Everything Serch Test
+searchit -eby -evy Ebay Everything Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -everything Ebay Everything Search Test II
@@ -2350,7 +2350,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -tvl Ebay Travel Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -travel Ebay Search Test II
+searchit -eby -travel Ebay Travel Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -gme Ebay Video Games Search Test
