@@ -1711,7 +1711,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -vot StackOverFlow Vote Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -stkof -votes StackOverFlow Vote Search Test II
+searchit -stkof -vote StackOverFlow Vote Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -stkof -job StackOverFlow Job Search Test
