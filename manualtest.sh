@@ -2350,7 +2350,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -tvl Ebay Travel Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -travel Ebay Search Test II
+searchit -eby -travel Ebay Travel Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -gme Ebay Video Games Search Test
