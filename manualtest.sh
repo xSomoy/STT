@@ -935,7 +935,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -qwnt -asn Qwant Asssocian Search
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -qwnt -associations Qwant Asssocian Search II
+searchit -qwnt -association Qwant Asssocian Search II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 clear
