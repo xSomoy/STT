@@ -2125,7 +2125,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -baby Ebay Baby Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -eby -bks Ebay Search Test
+searchit -eby -bks Ebay Books Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -eby -book Ebay Books Search Test II
