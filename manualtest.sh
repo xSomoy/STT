@@ -1520,7 +1520,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -pntr -brd Pinterst Boards Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -pntr -board Pinterest Board Search Test II
+
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 clear
@@ -1598,7 +1598,7 @@ echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -ans Quora Answer Search Test
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
-searchit -qra -answear Quora Answer Search Test II
+searchit -qra -answer Quora Answer Search Test II
 ((testDone++))
 echo "Test Done ( $testDone / $totalTest )"
 searchit -qra -pst Quora Post Search Test
