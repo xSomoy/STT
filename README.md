@@ -32,3 +32,10 @@ This script will run all the commands available for [Searchit](https://github.co
 For Any Other Necessary Feel Free To Contact Me Via [Twitter](https://www.twitter.com/xSomoy "My Twitter Account").
 
 ### Thank You !!
+
+<table aligh="center">
+  <tr>
+    <td>Total Visits</td>
+    <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
+  </tr>
+</table>
